@@ -1,0 +1,2528 @@
+{
+  "settings": {
+    "siteTitle": "NamDU IT Park · Raqamli universitet",
+    "logo": "NamDU",
+    "heroEyebrow": "IT Park · Namangan",
+    "heroTitle": "Raqamli universitetni quramiz",
+    "heroTitleDim": "va uning tizimlarini.",
+    "workIntro": "Tizimlar, saytlar va botlar",
+    "studioEyebrow": "IT Park · Namangan",
+    "studioTitle": "Universitet ichidagi IT jamoa.",
+    "studioLead": "IT Park universitetning o‘z ehtiyojlari uchun tizim yaratish maqsadida tashkil etilgan.",
+    "studioText": "Bugun jamoada dizaynerlar, dasturchilar va loyiha menejeri bir xonada ishlaydi. Bir vaqtda bir nechta loyiha olamiz — shuning uchun birinchi uchrashuvdagi odamlar ishni o‘zi bajaradi.",
+    "quote": "“Hisobot so‘rab fakultetlarga xat yozmaymiz. Raqam ertalab tayyor turadi.”",
+    "quoteAuthor": "Rektorat, NamDU",
+    "openRoles": [
+      "Senior Go dasturchi",
+      "Mahsulot dizayneri"
+    ],
+    "contactIntro": "Har bir xabarni mas’ul o‘qiydi va ikki ish kunida javob beradi",
+    "emails": [
+      "itpark@namdu.uz",
+      "info@namdu.uz"
+    ],
+    "phone": "(69) 227-01-44",
+    "address": "Uychi ko‘chasi 316, Namangan",
+    "telegram": "https://t.me/",
+    "instagram": "https://instagram.com/",
+    "youtube": "https://youtube.com/",
+    "footerTitle": "Fikringiz bormi?",
+    "stripDrift": 30
+  },
+  "projects": [
+    {
+      "name": "UniVision",
+      "year": 2026,
+      "category": "Monitoring",
+      "color": "#0f8f80",
+      "tagline": "Auditoriyalar va hududlar real vaqtda — kamera, HEMIS va sun’iy intellekt bitta tizimda.",
+      "intro": "Universitetdagi kameralar yagona platformaga ulangan: rahbariyat istalgan xona yoki hududni bir ekrandan ko‘radi.",
+      "story": "Auditoriyalar HEMIS dars jadvali bilan bog‘langan, xonadagi odamlar sonini AI hisoblaydi — reja bilan haqiqat mos kelmasa, tizim darhol belgilaydi. Dars sifati bo‘yicha mulohazalar bitta bazada yuritiladi.",
+      "services": "Jonli mozaika · Auditoriyalar · Dars tahlili",
+      "stack": "Videokuzatuv · HEMIS · AI",
+      "site": "vision.namdu.uz",
+      "kept": [
+        "Jonli mozaika",
+        "Umumiy hududlar",
+        "Auditoriyalar monitoringi",
+        "Xona sahifasi",
+        "Anomaliyalar",
+        "Dars tahlili",
+        "Excel hisobot"
+      ],
+      "stats": [],
+      "gallery": [],
+      "cover": "/img/cover/uv.png",
+      "hidden": false,
+      "id": "882ab201003e",
+      "slug": "univision",
+      "blocks": [
+        {
+          "id": "uv-deck",
+          "type": "slides",
+          "title": "Taqdimot",
+          "slides": [
+            {
+              "id": "uv-s1",
+              "url": "vision.namdu.uz",
+              "points": [
+                "370 ta auditoriya — 12 292 o‘rin",
+                "Rejadagi dars va xonadagi haqiqiy holat solishtiriladi",
+                "Dars sifati bo‘yicha mulohazalar bitta bazada"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/uv-mosaic-safe.png"
+                }
+              ],
+              "layout": "cover",
+              "kicker": "UniVision · vision.namdu.uz",
+              "title": "Universitet — bitta ekranda, real vaqtda",
+              "text": "O‘quv binolari, auditoriyalar va umumiy hududlardagi videokuzatuv kameralari yagona tarmoqda. Dars jadvali HEMIS bilan bog‘langan, xonadagi odamlar sonini sun’iy intellekt hisoblaydi."
+            },
+            {
+              "id": "univision-stats-s",
+              "layout": "stats",
+              "kicker": "Raqamlarda",
+              "images": [],
+              "points": [],
+              "title": "Monitoring — raqamlarda",
+              "text": "Auditoriyalar va umumiy hududlar bitta platformada kuzatiladi.",
+              "items": [
+                [
+                  "370",
+                  "auditoriya",
+                  "barchasi faol"
+                ],
+                [
+                  "12 292",
+                  "o‘rin sig‘imi"
+                ],
+                [
+                  "10",
+                  "umumiy hudud kamerasi",
+                  "5 joylashuv"
+                ],
+                [
+                  "4",
+                  "o‘quv binosi"
+                ]
+              ]
+            },
+            {
+              "id": "univision-compare-s",
+              "layout": "compare",
+              "kicker": "Muammo va yechim",
+              "left": "Ilgari",
+              "right": "Endi",
+              "images": [],
+              "points": [],
+              "title": "Nima o‘zgardi",
+              "rows": [
+                [
+                  "Dars bo‘layotganini bilish uchun xonaga borish kerak edi",
+                  "Istalgan auditoriya — bir ekrandan, jonli"
+                ],
+                [
+                  "Jadval va haqiqiy holat solishtirilmasdi",
+                  "«Dars bor, odam yo‘q» holatlari avtomatik aniqlanadi"
+                ],
+                [
+                  "Dars sifati haqidagi kuzatuvlar qog‘ozda qolardi",
+                  "Mulohazalar bitta bazada, Excel hisobot bilan"
+                ],
+                [
+                  "Yotoqxona va kirishlar alohida kuzatilardi",
+                  "Barcha hududlar yagona markazdan"
+                ]
+              ]
+            },
+            {
+              "id": "uv-s2",
+              "url": "vision.namdu.uz",
+              "points": [
+                "Bir ekranda 16, 24 yoki 32 ta kamera",
+                "Fakultet (11 ta) va o‘quv binosi (4 ta) bo‘yicha filtr",
+                "Ko‘p kamera — sahifalar bo‘ylab qulay o‘tish"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/uv-mosaic-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Jonli mozaika",
+              "title": "Barcha kameralar — bir ekranda",
+              "text": "Universitet hududidagi barcha o‘quv binolari va xonalardagi kameralar real vaqtda bitta tarmoqli ko‘rinishda kuzatiladi. Har bir kadr ostida xona va bino nomi yozilgan.",
+              "benefit": "Rahbariyat butun universitetni bitta ekrandan kuzatadi."
+            },
+            {
+              "id": "uv-s3",
+              "url": "vision.namdu.uz",
+              "points": [
+                "10 kamera · 5 joylashuv: 1-yotoqxona, Filologiya, Iqtisodiyot, Xorijiy filologiya va Biotexnologiya, Yuksalish — Rektorat",
+                "Hudud turi bo‘yicha saralash: kirish, chiqish, koridor, hovli, fasad",
+                "Administrator yangi kuzatuv nuqtasini o‘zi qo‘shadi"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/uv-common-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Umumiy hududlar",
+              "title": "Kirish-chiqish va hovlilar nazoratda",
+              "text": "Yotoqxonalar, binolarning kirish-chiqish joylari, koridorlar, hovli va fasad kameralari markazlashgan holda kuzatiladi. Suratlar avtomatik yangilanadi.",
+              "benefit": "Talabalar turar joylari va kirish-chiqishlar xavfsizligi kuchayadi."
+            },
+            {
+              "id": "uv-s4",
+              "url": "",
+              "points": [
+                "370 ta faol auditoriya",
+                "12 292 o‘rin sig‘imi",
+                "Ma’ruza, amaliyot, seminar, laboratoriya bo‘yicha filtr",
+                "Bo‘sh, dars belgilanmagan va nofaol xonalar alohida"
+              ],
+              "images": [],
+              "layout": "points",
+              "kicker": "UniVision · O‘quv jarayoni",
+              "title": "Auditoriyalar HEMIS bilan bog‘langan",
+              "text": "Dars jadvali, o‘qituvchi va guruh HEMIS’dan avtomatik olinadi — har bir xonada hozir nima bo‘layotgani reja bilan solishtiriladi."
+            },
+            {
+              "id": "uv-s5",
+              "url": "vision.namdu.uz",
+              "points": [
+                "«Dars bor, odam yo‘q» va «Odam bor, dars yo‘q» holatlari avtomatik",
+                "Har bir xona uchun jonli ko‘rish va tahrirlash"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/uv-rooms-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Auditoriyalar",
+              "title": "«Dars bor, odam yo‘q» — darhol ko‘rinadi",
+              "text": "Har bir xona kartochkasida hozirgi dars, o‘qituvchi, guruh, vaqt va xonadagi haqiqiy odamlar soni turadi. Reja bilan haqiqat mos kelmasa, tizim buni o‘zi belgilaydi.",
+              "benefit": "O‘tilmagan darslar va bo‘sh xonalar yashirin qolmaydi."
+            },
+            {
+              "id": "uv-s6",
+              "url": "vision.namdu.uz",
+              "points": [
+                "Iqlimshunoslik va gidrologiya · GEO-BU-26 · 10:00–11:20",
+                "AI: xonada 13 kishi (taxminiy qiymat)",
+                "Kunning keyingi darslari; H.264 yuqori sifatli oqim"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/uv-room-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Xona sahifasi",
+              "title": "Jonli efir + dars ma’lumoti + AI hisob",
+              "text": "Masalan, IV bino 316-xona: jonli translyatsiya yonida HEMIS’dan olingan dars — fan, guruh, vaqt — va sun’iy intellekt hisoblagan talabalar soni.",
+              "benefit": "Davomatni sun’iy intellekt xolis hisoblaydi."
+            },
+            {
+              "id": "uv-s7",
+              "url": "vision.namdu.uz",
+              "points": [
+                "Ijobiy / salbiy mulohazalar kunlik grafikda",
+                "Fan, o‘qituvchi, guruh, bino va sana bo‘yicha qidiruv",
+                "Excel’ga eksport"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/uv-feedback-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Dars tahlili",
+              "title": "Dars sifati — obyektiv baholanadi",
+              "text": "Ma’muriyat va mas’ullar dars vaqtida ko‘rgan ijobiy holatlar va intizomsizliklarni tizimga qayd etadi. Barcha mulohazalar bitta bazada.",
+              "benefit": "O‘quv intizomi obyektiv, hujjatlashtirilgan holda baholanadi."
+            },
+            {
+              "id": "uv-s8",
+              "url": "",
+              "points": [
+                "O‘quv intizomi masofadan kuzatiladi",
+                "Rejadagi dars va xonadagi haqiqiy holat solishtiriladi",
+                "Yotoqxona va binolarning kirish-chiqishi nazoratda",
+                "Fakultetlar kesimida hisobot — Excel’da"
+              ],
+              "images": [],
+              "layout": "points",
+              "kicker": "Natija",
+              "title": "Masofadan, real vaqtda, obyektiv"
+            }
+          ]
+        },
+        {
+          "id": "uv-info",
+          "type": "info",
+          "rows": [
+            [
+              "Mijoz",
+              "Namangan davlat universiteti"
+            ],
+            [
+              "Yo‘nalish",
+              "Monitoring"
+            ],
+            [
+              "Yil",
+              "2026"
+            ],
+            [
+              "Imkoniyatlar",
+              "Jonli mozaika · Auditoriyalar · Dars tahlili"
+            ],
+            [
+              "Integratsiya",
+              "HEMIS dars jadvali"
+            ],
+            [
+              "Sayt",
+              "vision.namdu.uz"
+            ]
+          ],
+          "lead": "Universitetdagi kameralar yagona platformaga ulangan: rahbariyat istalgan xona yoki hududni bir ekrandan ko‘radi.",
+          "body": "Auditoriyalar HEMIS dars jadvali bilan bog‘langan, xonadagi odamlar sonini AI hisoblaydi — reja bilan haqiqat mos kelmasa, tizim darhol belgilaydi. Dars sifati bo‘yicha mulohazalar bitta bazada yuritiladi."
+        },
+        {
+          "id": "a01htqqt",
+          "type": "html",
+          "title": "AI bo‘limi",
+          "code": "<style>\n.x-univision {\n  --p: #2a3bff;\n  width: 100%;\n  color: var(--fg, #f3f3f1);\n  font-family: var(--sans, 'Geist'), sans-serif;\n  overflow: hidden;\n}\n\n.x-univision * {\n  box-sizing: border-box;\n}\n\n.x-univision .x-kicker {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n  margin-bottom: 22px;\n}\n\n.x-univision .x-kicker-line {\n  width: 28px;\n  height: 1px;\n  background: var(--p);\n}\n\n.x-univision .x-intro {\n  display: grid;\n  grid-template-columns: 1fr 1.1fr;\n  gap: 40px;\n  align-items: end;\n  margin-bottom: 44px;\n}\n\n.x-univision .x-intro-title {\n  font-size: clamp(34px, 5vw, 64px);\n  font-weight: 700;\n  letter-spacing: -.055em;\n  line-height: .99;\n  margin: 0;\n}\n\n.x-univision .x-intro-title span {\n  color: var(--p);\n}\n\n.x-univision .x-intro-desc {\n  color: var(--mute);\n  font-size: 16px;\n  line-height: 1.75;\n  max-width: 540px;\n  margin: 0;\n}\n\n.x-univision .x-meta {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  border-top: 1px solid var(--line);\n  border-bottom: 1px solid var(--line);\n  margin-bottom: 72px;\n}\n\n.x-univision .x-meta-item {\n  padding: 20px 22px 20px 0;\n  border-right: 1px solid var(--line);\n}\n\n.x-univision .x-meta-item + .x-meta-item {\n  padding-left: 22px;\n}\n\n.x-univision .x-meta-item:last-child {\n  border-right: 0;\n}\n\n.x-univision .x-meta-value {\n  display: block;\n  color: var(--fg);\n  font-size: 15px;\n  font-weight: 600;\n  margin-top: 8px;\n}\n\n.x-univision .x-section-head {\n  display: grid;\n  grid-template-columns: .7fr 1.3fr;\n  gap: 40px;\n  align-items: start;\n  margin-bottom: 30px;\n}\n\n.x-univision .x-section-title {\n  font-size: clamp(28px, 3.5vw, 44px);\n  font-weight: 700;\n  line-height: 1.05;\n  letter-spacing: -.05em;\n  margin: 0;\n}\n\n.x-univision .x-section-desc {\n  font-size: 15px;\n  line-height: 1.8;\n  color: var(--mute);\n  margin: 0;\n  max-width: 650px;\n}\n\n.x-univision .x-screen {\n  display: block;\n  width: 100%;\n  max-width: 100%;\n  height: auto;\n  object-fit: cover;\n  border: 1px solid var(--line);\n  border-radius: 4px;\n  background: var(--card);\n}\n\n.x-univision .x-screen-wrap {\n  position: relative;\n  overflow: hidden;\n  border-radius: 4px;\n  border: 1px solid var(--line);\n  background: var(--card);\n}\n\n.x-univision .x-screen-label {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  gap: 12px;\n  padding: 13px 15px;\n  border-top: 1px solid var(--line);\n  color: var(--mute);\n  font-family: var(--mono, 'Geist Mono'), monospace;\n  font-size: 10px;\n  letter-spacing: .04em;\n  text-transform: uppercase;\n}\n\n.x-univision .x-screen-label strong {\n  color: var(--fg);\n  font-weight: 500;\n}\n\n.x-univision .x-mosaic-layout {\n  display: grid;\n  grid-template-columns: 1.65fr .75fr;\n  gap: 20px;\n  align-items: stretch;\n}\n\n.x-univision .x-side-info {\n  display: flex;\n  flex-direction: column;\n  gap: 12px;\n}\n\n.x-univision .x-info-card {\n  background: var(--card);\n  border: 1px solid var(--line);\n  border-radius: 3px;\n  padding: 22px;\n  flex: 1;\n}\n\n.x-univision .x-info-number {\n  font-size: clamp(32px, 4vw, 48px);\n  line-height: 1;\n  font-weight: 700;\n  letter-spacing: -.06em;\n  color: var(--fg);\n  margin: 12px 0;\n}\n\n.x-univision .x-info-number em {\n  font-size: 13px;\n  color: var(--p);\n  font-style: normal;\n  letter-spacing: 0;\n}\n\n.x-univision .x-info-text {\n  font-size: 13px;\n  line-height: 1.7;\n  color: var(--mute);\n  margin: 0;\n}\n\n.x-univision .x-chip-row {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 8px;\n  margin-top: 16px;\n}\n\n.x-univision .x-chip {\n  border: 1px solid var(--line);\n  padding: 7px 11px;\n  color: var(--mute);\n  font-family: var(--mono, 'Geist Mono'), monospace;\n  font-size: 10px;\n  letter-spacing: .03em;\n}\n\n.x-univision .x-feature-list {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 20px;\n  margin-top: 22px;\n}\n\n.x-univision .x-feature {\n  border-top: 1px solid var(--line);\n  padding-top: 17px;\n}\n\n.x-univision .x-feature-index {\n  color: var(--p);\n  font-family: var(--mono, 'Geist Mono'), monospace;\n  font-size: 10px;\n}\n\n.x-univision .x-feature-title {\n  color: var(--fg);\n  font-size: 15px;\n  font-weight: 650;\n  letter-spacing: -.025em;\n  margin: 12px 0 7px;\n}\n\n.x-univision .x-feature-desc {\n  color: var(--mute);\n  font-size: 13px;\n  line-height: 1.7;\n  margin: 0;\n}\n\n.x-univision .x-block {\n  margin-top: 82px;\n}\n\n.x-univision .x-two-screens {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 20px;\n}\n\n.x-univision .x-stat-grid {\n  display: grid;\n  grid-template-columns: repeat(2, 1fr);\n  gap: 12px;\n  margin-bottom: 20px;\n}\n\n.x-univision .x-stat {\n  background: var(--card);\n  border: 1px solid var(--line);\n  padding: 20px;\n  border-radius: 3px;\n}\n\n.x-univision .x-stat strong {\n  display: block;\n  font-size: clamp(30px, 3vw, 43px);\n  font-weight: 700;\n  letter-spacing: -.06em;\n  line-height: 1;\n  margin-bottom: 10px;\n}\n\n.x-univision .x-stat span {\n  color: var(--mute);\n  font-size: 12px;\n}\n\n.x-univision .x-common-layout {\n  display: grid;\n  grid-template-columns: 1.4fr .8fr;\n  gap: 20px;\n}\n\n.x-univision .x-room-layout {\n  display: grid;\n  grid-template-columns: 1.4fr .8fr;\n  gap: 20px;\n  align-items: start;\n}\n\n.x-univision .x-room-panel {\n  background: var(--card);\n  border: 1px solid var(--line);\n  padding: 24px;\n  border-radius: 3px;\n}\n\n.x-univision .x-room-subject {\n  font-size: 23px;\n  line-height: 1.2;\n  letter-spacing: -.04em;\n  font-weight: 700;\n  margin: 12px 0;\n}\n\n.x-univision .x-room-details {\n  display: grid;\n  gap: 0;\n  margin-top: 20px;\n}\n\n.x-univision .x-room-row {\n  display: flex;\n  justify-content: space-between;\n  gap: 15px;\n  padding: 13px 0;\n  border-top: 1px solid var(--line);\n  font-size: 12px;\n}\n\n.x-univision .x-room-row span:first-child {\n  color: var(--mute);\n  font-family: var(--mono, 'Geist Mono'), monospace;\n  font-size: 10px;\n}\n\n.x-univision .x-room-row strong {\n  text-align: right;\n  font-weight: 600;\n}\n\n.x-univision .x-schedule {\n  margin-top: 20px;\n  border: 1px solid var(--line);\n  background: var(--card);\n  padding: 22px;\n  border-radius: 3px;\n}\n\n.x-univision .x-schedule-item {\n  display: grid;\n  grid-template-columns: 115px 1fr;\n  gap: 18px;\n  padding: 14px 0;\n  border-top: 1px solid var(--line);\n}\n\n.x-univision .x-schedule-time {\n  color: var(--p);\n  font-family: var(--mono, 'Geist Mono'), monospace;\n  font-size: 10px;\n  padding-top: 3px;\n}\n\n.x-univision .x-schedule-name {\n  color: var(--fg);\n  font-size: 13px;\n  font-weight: 600;\n}\n\n.x-univision .x-schedule-teacher {\n  color: var(--mute);\n  font-size: 11px;\n  margin-top: 5px;\n}\n\n.x-univision .x-feedback-layout {\n  display: grid;\n  grid-template-columns: 1.5fr .7fr;\n  gap: 20px;\n}\n\n.x-univision .x-feedback-cards {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 12px;\n}\n\n.x-univision .x-feedback-card {\n  background: var(--card);\n  border: 1px solid var(--line);\n  padding: 22px;\n  border-radius: 3px;\n}\n\n.x-univision .x-feedback-card strong {\n  display: block;\n  font-size: 15px;\n  margin: 14px 0 8px;\n}\n\n.x-univision .x-feedback-card p {\n  color: var(--mute);\n  font-size: 12px;\n  line-height: 1.7;\n  margin: 0;\n}\n\n.x-univision .x-feedback-mark {\n  width: 7px;\n  height: 7px;\n  display: inline-block;\n  background: var(--p);\n  margin-right: 7px;\n}\n\n.x-univision .x-feedback-mark.positive {\n  background: #36bd91;\n}\n\n.x-univision .x-feedback-mark.negative {\n  background: #e66c76;\n}\n\n.x-univision .x-bottom {\n  margin-top: 82px;\n  padding: 30px;\n  border: 1px solid var(--line);\n  background: var(--card);\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 30px;\n  align-items: center;\n}\n\n.x-univision .x-bottom-title {\n  font-size: clamp(27px, 3.5vw, 42px);\n  font-weight: 700;\n  letter-spacing: -.055em;\n  line-height: 1.05;\n  margin: 12px 0;\n}\n\n.x-univision .x-bottom-text {\n  color: var(--mute);\n  font-size: 14px;\n  line-height: 1.8;\n  margin: 0;\n}\n\n.x-univision .x-link {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  color: var(--fg);\n  text-decoration: none;\n  border-bottom: 1px solid var(--p);\n  padding: 10px 0;\n  margin-top: 16px;\n  font-family: var(--mono, 'Geist Mono'), monospace;\n  font-size: 11px;\n  transition: color .2s ease;\n}\n\n.x-univision .x-link:hover {\n  color: var(--p);\n}\n\n.x-univision .x-link svg {\n  width: 14px;\n  height: 14px;\n}\n\n.x-univision .x-bottom-data {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 12px;\n}\n\n.x-univision .x-bottom-data > div {\n  border: 1px solid var(--line);\n  padding: 17px;\n}\n\n.x-univision .x-bottom-data strong {\n  display: block;\n  font-size: 22px;\n  letter-spacing: -.04em;\n  margin-bottom: 7px;\n}\n\n.x-univision .x-bottom-data span {\n  color: var(--mute);\n  font-size: 11px;\n}\n\n.x-univision .x-reveal {\n  animation: x-univision-in .7s cubic-bezier(.22,.31,0,1) both;\n}\n\n@keyframes x-univision-in {\n  from { opacity: 0; transform: translateY(14px); }\n  to { opacity: 1; transform: translateY(0); }\n}\n\n@media (max-width: 900px) {\n  .x-univision .x-intro,\n  .x-univision .x-section-head,\n  .x-univision .x-mosaic-layout,\n  .x-univision .x-common-layout,\n  .x-univision .x-room-layout,\n  .x-univision .x-feedback-layout,\n  .x-univision .x-bottom {\n    grid-template-columns: 1fr;\n  }\n\n  .x-univision .x-feature-list {\n    grid-template-columns: 1fr 1fr;\n  }\n\n  .x-univision .x-block {\n    margin-top: 62px;\n  }\n\n  .x-univision .x-side-info {\n    display: grid;\n    grid-template-columns: repeat(2, 1fr);\n  }\n}\n\n@media (max-width: 560px) {\n  .x-univision .x-meta {\n    grid-template-columns: 1fr;\n  }\n\n  .x-univision .x-meta-item,\n  .x-univision .x-meta-item + .x-meta-item {\n    padding: 14px 0;\n    border-right: 0;\n    border-bottom: 1px solid var(--line);\n  }\n\n  .x-univision .x-meta-item:last-child {\n    border-bottom: 0;\n  }\n\n  .x-univision .x-feature-list,\n  .x-univision .x-two-screens,\n  .x-univision .x-feedback-cards,\n  .x-univision .x-bottom-data {\n    grid-template-columns: 1fr;\n  }\n\n  .x-univision .x-side-info {\n    grid-template-columns: 1fr 1fr;\n  }\n\n  .x-univision .x-info-card {\n    padding: 16px;\n  }\n\n  .x-univision .x-schedule-item {\n    grid-template-columns: 1fr;\n    gap: 7px;\n  }\n\n  .x-univision .x-bottom {\n    padding: 20px;\n  }\n\n  .x-univision .x-block {\n    margin-top: 52px;\n  }\n\n  .x-univision .x-intro {\n    gap: 20px;\n  }\n}\n</style>\n<section class=\"x-univision g-section\">\n\n  <!-- INTRO -->\n  <div class=\"x-kicker x-reveal\">\n    <span class=\"x-kicker-line\"></span>\n    <span class=\"g-mono\">LOYIHA TAQDIMOTI / 2026</span>\n  </div>\n\n  <div class=\"x-intro x-reveal\">\n    <h2 class=\"x-intro-title\">\n      Universitet<br>\n      boshqaruvining<br>\n      <span>yangi ko‘rinishi.</span>\n    </h2>\n    <p class=\"x-intro-desc\">\n      UniVision — Namangan davlat universitetida videokuzatuv,\n      auditoriyalar bandligi va o‘quv jarayonini monitoring qilishga\n      mo‘ljallangan yagona raqamli boshqaruv platformasi.\n      Tizim ma’muriyatga universitetdagi jarayonlarni masofadan\n      kuzatish, ma’lumotlarni tahlil qilish va nazoratni\n      markazlashtirish imkonini beradi.\n    </p>\n  </div>\n\n  <div class=\"x-meta x-reveal\">\n    <div class=\"x-meta-item\">\n      <span class=\"g-mono\">LOYIHA</span>\n      <span class=\"x-meta-value\">UniVision</span>\n    </div>\n    <div class=\"x-meta-item\">\n      <span class=\"g-mono\">YO‘NALISH</span>\n      <span class=\"x-meta-value\">Raqamli boshqaruv</span>\n    </div>\n    <div class=\"x-meta-item\">\n      <span class=\"g-mono\">YIL</span>\n      <span class=\"x-meta-value\">2026</span>\n    </div>\n  </div>\n\n  <!-- LIVE MOSAIC -->\n  <div class=\"x-block\">\n    <div class=\"x-section-head\">\n      <div>\n        <span class=\"g-mono\">01 / LIVE MONITORING</span>\n        <h3 class=\"x-section-title\" style=\"margin-top:14px\">\n          Jonli mozaika.\n        </h3>\n      </div>\n      <p class=\"x-section-desc\">\n        Universitetning o‘quv binolari va xonalaridagi videokuzatuv\n        kameralarini yagona ekranda real vaqt rejimida kuzatish.\n        Fakultet va binolar bo‘yicha filtrlash orqali kerakli\n        kuzatuv nuqtasiga tezkor o‘tish mumkin.\n      </p>\n    </div>\n\n    <div class=\"x-mosaic-layout\">\n      <div class=\"x-screen-wrap\">\n        <!-- Rasmni /img/real/uv-mosaic-safe.png manziliga joylashtiring -->\n        <img class=\"x-screen\" src=\"/img/real/uv-mosaic-safe.png\" alt=\"UniVision jonli mozaika sahifasida universitet auditoriyalari kameralarining tarmoqli ko‘rinishi\" loading=\"lazy\">\n        <div class=\"x-screen-label\">\n          <strong>Jonli mozaika / Kamera tarmog‘i</strong>\n          <span>01 — Monitoring</span>\n        </div>\n      </div>\n\n      <div class=\"x-side-info\">\n        <div class=\"x-info-card\">\n          <span class=\"g-mono\">EKRAN TARTIBI</span>\n          <div class=\"x-info-number\">16 <em>/ 24 / 32</em></div>\n          <p class=\"x-info-text\">\n            Bir vaqtda ko‘rsatiladigan kameralar sonini foydalanuvchi\n            ehtiyojiga qarab moslashtirish.\n          </p>\n        </div>\n\n        <div class=\"x-info-card\">\n          <span class=\"g-mono\">SARALASH</span>\n          <div class=\"x-info-number\" style=\"font-size:27px\">\n            Fakultet / Bino\n          </div>\n          <p class=\"x-info-text\">\n            Kameralarni fakultetlar va o‘quv binolari kesimida\n            filtrlash hamda sahifalar bo‘ylab navigatsiya qilish.\n          </p>\n          <div class=\"x-chip-row\">\n            <span class=\"x-chip\">Fakultet</span>\n            <span class=\"x-chip\">Bino</span>\n            <span class=\"x-chip\">Xona</span>\n          </div>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"x-feature-list\">\n      <div class=\"x-feature\">\n        <span class=\"x-feature-index\">01 / 03</span>\n        <h4 class=\"x-feature-title\">Jonli kuzatuv</h4>\n        <p class=\"x-feature-desc\">\n          Bir ekranda bir nechta kamera oqimini kuzatish.\n        </p>\n      </div>\n      <div class=\"x-feature\">\n        <span class=\"x-feature-index\">02 / 03</span>\n        <h4 class=\"x-feature-title\">Aqlli filtrlash</h4>\n        <p class=\"x-feature-desc\">\n          Fakultet, bino va xona bo‘yicha kerakli kamerani topish.\n        </p>\n      </div>\n      <div class=\"x-feature\">\n        <span class=\"x-feature-index\">03 / 03</span>\n        <h4 class=\"x-feature-title\">Moslashuvchan ko‘rinish</h4>\n        <p class=\"x-feature-desc\">\n          16, 24 yoki 32 kamerali tarmoq ko‘rinishini tanlash.\n        </p>\n      </div>\n    </div>\n  </div>\n\n  <!-- COMMON AREAS -->\n  <div class=\"x-block\">\n    <div class=\"x-section-head\">\n      <div>\n        <span class=\"g-mono\">02 / COMMON AREAS</span>\n        <h3 class=\"x-section-title\" style=\"margin-top:14px\">\n          Umumiy hududlar.\n        </h3>\n      </div>\n      <p class=\"x-section-desc\">\n        Universitetning ochiq va yopiq umumiy hududlarini,\n        kirish-chiqish nuqtalarini, koridorlarni, hovli va bino\n        atroflarini markazlashgan holda vizual monitoring qilish.\n      </p>\n    </div>\n\n    <div class=\"x-common-layout\">\n      <div class=\"x-screen-wrap\">\n        <!-- Rasmni /img/real/uv-common-safe.png manziliga joylashtiring -->\n        <img class=\"x-screen\" src=\"/img/real/uv-common-safe.png\" alt=\"UniVision umumiy hududlar sahifasida yotoqxona kirish va chiqish kameralarining ko‘rinishi\" loading=\"lazy\">\n        <div class=\"x-screen-label\">\n          <strong>Umumiy hududlar / Jonli kuzatuv</strong>\n          <span>02 — Hudud nazorati</span>\n        </div>\n      </div>\n\n      <div>\n        <div class=\"x-stat-grid\">\n          <div class=\"x-stat\">\n            <strong>10</strong>\n            <span>Faol kamera</span>\n          </div>\n          <div class=\"x-stat\">\n            <strong>05</strong>\n            <span>Asosiy joylashuv</span>\n          </div>\n        </div>\n\n        <div class=\"x-info-card\">\n          <span class=\"g-mono\">BOSHQARUV IMKONIYATLARI</span>\n          <div class=\"x-chip-row\">\n            <span class=\"x-chip\">Kirish</span>\n            <span class=\"x-chip\">Chiqish</span>\n            <span class=\"x-chip\">Koridor</span>\n            <span class=\"x-chip\">Hovli</span>\n            <span class=\"x-chip\">Fasad</span>\n          </div>\n          <p class=\"x-info-text\" style=\"margin-top:18px\">\n            Kamera nomi yoki joylashuvi bo‘yicha qidirish,\n            bino va hudud turiga qarab filtrlash, jonli ko‘rish\n            hamda yangi kamera qo‘shish imkoniyatlari mavjud.\n          </p>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"x-feature-list\">\n      <div class=\"x-feature\">\n        <span class=\"x-feature-index\">01 / LOCATION</span>\n        <h4 class=\"x-feature-title\">Joylashuvlar</h4>\n        <p class=\"x-feature-desc\">\n          1-yotoqxona, Filologiya, Iqtisodiyot, Xorijiy filologiya,\n          Biotexnologiya va Yuksalish — Rektorat.\n        </p>\n      </div>\n      <div class=\"x-feature\">\n        <span class=\"x-feature-index\">02 / FILTER</span>\n        <h4 class=\"x-feature-title\">Tezkor saralash</h4>\n        <p class=\"x-feature-desc\">\n          Bino, joylashuv va hudud turi bo‘yicha kameralarni ajratish.\n        </p>\n      </div>\n      <div class=\"x-feature\">\n        <span class=\"x-feature-index\">03 / CONTROL</span>\n        <h4 class=\"x-feature-title\">Kamera boshqaruvi</h4>\n        <p class=\"x-feature-desc\">\n          Jonli ko‘rish, ma’lumotlarni tahrirlash va yangi kuzatuv\n          nuqtasini biriktirish.\n        </p>\n      </div>\n    </div>\n  </div>\n\n  <!-- AUDITORIUMS -->\n  <div class=\"x-block\">\n    <div class=\"x-section-head\">\n      <div>\n        <span class=\"g-mono\">03 / AUDITORIUM MONITORING</span>\n        <h3 class=\"x-section-title\" style=\"margin-top:14px\">\n          Auditoriyalar nazorati.\n        </h3>\n      </div>\n      <p class=\"x-section-desc\">\n        O‘quv xonalarining bandligi, dars jarayoni, o‘qituvchi,\n        guruh va ishtirokchilar sonini kuzatish. HEMIS tizimi\n        bilan sinxronizatsiya orqali dars jadvali va auditoriya\n        holati yagona interfeysda namoyish etiladi.\n      </p>\n    </div>\n\n    <div class=\"x-mosaic-layout\">\n      <div class=\"x-screen-wrap\">\n        <!-- Rasmni /img/real/uv-rooms-safe.png manziliga joylashtiring -->\n        <img class=\"x-screen\" src=\"/img/real/uv-rooms-safe.png\" alt=\"UniVision auditoriyalar sahifasida dars jarayoni va auditoriya kartochkalari\" loading=\"lazy\">\n        <div class=\"x-screen-label\">\n          <strong>Auditoriyalar / O‘quv jarayoni</strong>\n          <span>03 — HEMIS integratsiyasi</span>\n        </div>\n      </div>\n\n      <div class=\"x-side-info\">\n        <div class=\"x-info-card\">\n          <span class=\"g-mono\">AUDITORIYALAR</span>\n          <div class=\"x-info-number\">370</div>\n          <p class=\"x-info-text\">Barchasi faol auditoriyalar.</p>\n        </div>\n        <div class=\"x-info-card\">\n          <span class=\"g-mono\">UMUMIY SIG‘IM</span>\n          <div class=\"x-info-number\">12 292</div>\n          <p class=\"x-info-text\">Auditoriyalardagi jami o‘rinlar soni.</p>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"x-feature-list\">\n      <div class=\"x-feature\">\n        <span class=\"x-feature-index\">01 / HEMIS</span>\n        <h4 class=\"x-feature-title\">Avtomatik sinxronlash</h4>\n        <p class=\"x-feature-desc\">\n          Dars jadvali, fan, o‘qituvchi va guruh ma’lumotlarini\n          HEMIS platformasidan olish.\n        </p>\n      </div>\n      <div class=\"x-feature\">\n        <span class=\"x-feature-index\">02 / LIVE DATA</span>\n        <h4 class=\"x-feature-title\">Jonli monitoring</h4>\n        <p class=\"x-feature-desc\">\n          Dars vaqti, xona bandligi va xonadagi odamlar sonini\n          kuzatish.\n        </p>\n      </div>\n      <div class=\"x-feature\">\n        <span class=\"x-feature-index\">03 / AI ANALYSIS</span>\n        <h4 class=\"x-feature-title\">Intellektual nazorat</h4>\n        <p class=\"x-feature-desc\">\n          Dars jadvali va kameradan olingan holatni solishtirib,\n          nomuvofiqliklarni aniqlash.\n        </p>\n      </div>\n    </div>\n  </div>\n\n  <!-- ROOM DETAIL -->\n  <div class=\"x-block\">\n    <div class=\"x-section-head\">\n      <div>\n        <span class=\"g-mono\">04 / REAL-TIME CASE</span>\n        <h3 class=\"x-section-title\" style=\"margin-top:14px\">\n          Bitta auditoriya.<br>To‘liq nazorat.\n        </h3>\n      </div>\n      <p class=\"x-section-desc\">\n        IV-o‘quv binosidagi 316-xona misolida tizimning batafsil\n        monitoring imkoniyatlari. Jonli kamera, joriy dars\n        ma’lumotlari, taxminiy ishtirokchilar soni va keyingi\n        mashg‘ulotlar jadvali bir sahifada jamlangan.\n      </p>\n    </div>\n\n    <div class=\"x-room-layout\">\n      <div class=\"x-screen-wrap\">\n        <!-- Rasmni /img/real/uv-room-safe.png manziliga joylashtiring -->\n        <img class=\"x-screen\" src=\"/img/real/uv-room-safe.png\" alt=\"IV-bino 316-xonadagi talabalar va dars jarayonining jonli kamera tasviri\" loading=\"lazy\">\n        <div class=\"x-screen-label\">\n          <strong>IV-bino / 316-xona</strong>\n          <span>LIVE MONITORING</span>\n        </div>\n      </div>\n\n      <div class=\"x-room-panel\">\n        <span class=\"g-mono\">HOZIRGI MASHG‘ULOT</span>\n        <h4 class=\"x-room-subject\">\n          Iqlimshunoslik va gidrologiya\n        </h4>\n        <p class=\"x-info-text\">Amaliy mashg‘ulot</p>\n\n        <div class=\"x-room-details\">\n          <div class=\"x-room-row\">\n            <span>O‘QITUVCHI</span>\n            <strong>Rapiqov B. R.</strong>\n          </div>\n          <div class=\"x-room-row\">\n            <span>GURUH</span>\n            <strong>GEO-BU-26</strong>\n          </div>\n          <div class=\"x-room-row\">\n            <span>VAQT</span>\n            <strong>10:00 – 11:20</strong>\n          </div>\n          <div class=\"x-room-row\">\n            <span>AI HISOBI</span>\n            <strong>13 kishi*</strong>\n          </div>\n        </div>\n        <p class=\"x-info-text\" style=\"margin-top:16px\">\n          *Talabalar soni sun’iy intellekt yordamida aniqlangan\n          taxminiy ko‘rsatkich.\n        </p>\n      </div>\n    </div>\n\n    <div class=\"x-schedule\">\n      <span class=\"g-mono\">316-XONA / KEYINGI MASHG‘ULOTLAR</span>\n\n      <div class=\"x-schedule-item\" style=\"margin-top:14px\">\n        <div class=\"x-schedule-time\">13:00 – 14:20</div>\n        <div>\n          <div class=\"x-schedule-name\">Ma’rifat darsi</div>\n          <div class=\"x-schedule-teacher\">\n            SOBIRXONOV A. T. / GEO-BU-25, EKO-AU-25, GEO-AU-25\n          </div>\n        </div>\n      </div>\n\n      <div class=\"x-schedule-item\">\n        <div class=\"x-schedule-time\">14:30 – 15:50</div>\n        <div>\n          <div class=\"x-schedule-name\">Jahon geografiyasi</div>\n          <div class=\"x-schedule-teacher\">\n            NAIMOV H. N. / GEO-AU-25, GEO-BU-25\n          </div>\n        </div>\n      </div>\n\n      <div class=\"x-schedule-item\">\n        <div class=\"x-schedule-time\">16:00 – 17:20</div>\n        <div>\n          <div class=\"x-schedule-name\">\n            Topografiya, kartografiya va GAT\n          </div>\n          <div class=\"x-schedule-teacher\">\n            NAIMOV H. N. / GEO-AU-25\n          </div>\n        </div>\n      </div>\n\n      <div class=\"x-schedule-item\">\n        <div class=\"x-schedule-time\">19:00 – 20:20</div>\n        <div>\n          <div class=\"x-schedule-name\">Umumiy tabiiy geografiya</div>\n          <div class=\"x-schedule-teacher\">\n            MIRZAXMEDOV I. K. / K.GEO-AU-26\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <!-- FEEDBACK -->\n  <div class=\"x-block\">\n    <div class=\"x-section-head\">\n      <div>\n        <span class=\"g-mono\">05 / FEEDBACK &amp; ANALYTICS</span>\n        <h3 class=\"x-section-title\" style=\"margin-top:14px\">\n          Dars sifati tahlili.\n        </h3>\n      </div>\n      <p class=\"x-section-desc\">\n        O‘qituvchilar va ma’muriyat tomonidan dars jarayonlari\n        yuzasidan qoldirilgan fikr-mulohazalarni yagona bazada\n        yuritish, ijobiy va salbiy holatlarni tahlil qilish\n        hamda hisobotlarni shakllantirish.\n      </p>\n    </div>\n\n    <div class=\"x-feedback-layout\">\n      <div class=\"x-screen-wrap\">\n        <!-- Rasmni /img/real/uv-feedback-safe.png manziliga joylashtiring -->\n        <img class=\"x-screen\" src=\"/img/real/uv-feedback-safe.png\" alt=\"UniVision dars tahlili sahifasida ijobiy va salbiy fikrlar statistikasi hamda kuzatuvlar jadvali\" loading=\"lazy\">\n        <div class=\"x-screen-label\">\n          <strong>Dars tahlili / Statistik monitoring</strong>\n          <span>05 — Tahlil</span>\n        </div>\n      </div>\n\n      <div>\n        <div class=\"x-feedback-cards\">\n          <div class=\"x-feedback-card\">\n            <span class=\"x-feedback-mark positive\"></span>\n            <span class=\"g-mono\">IJOBIY</span>\n            <strong>Ijobiy mulohaza</strong>\n            <p>\n              Dars jarayonidagi ijobiy holatlar va kuzatuvlarni\n              tizimda qayd etish.\n            </p>\n          </div>\n\n          <div class=\"x-feedback-card\">\n            <span class=\"x-feedback-mark negative\"></span>\n            <span class=\"g-mono\">SALBIY</span>\n            <strong>Salbiy mulohaza</strong>\n            <p>\n              Dars jarayonidagi kamchilik va intizom bilan bog‘liq\n              holatlarni qayd etish.\n            </p>\n          </div>\n        </div>\n\n        <div class=\"x-info-card\" style=\"margin-top:12px\">\n          <span class=\"g-mono\">HISOBOT VA FILTRLASH</span>\n          <p class=\"x-info-text\" style=\"margin-top:14px\">\n            Fan, o‘qituvchi, guruh, bino va sana bo‘yicha qidiruv.\n            Kunlik statistik grafiklar va Excel formatida eksport\n            qilish imkoniyati.\n          </p>\n          <div class=\"x-chip-row\">\n            <span class=\"x-chip\">Qidiruv</span>\n            <span class=\"x-chip\">Sana</span>\n            <span class=\"x-chip\">Bino</span>\n            <span class=\"x-chip\">Excel</span>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <!-- SUMMARY -->\n  <div class=\"x-bottom\">\n    <div>\n      <span class=\"g-mono\">UNIVISION / YAKUNIY NATIJA</span>\n      <h3 class=\"x-bottom-title\">\n        Kuzatuvdan<br>tahlilgacha.\n      </h3>\n      <p class=\"x-bottom-text\">\n        UniVision universitetning videokuzatuv infratuzilmasi,\n        auditoriyalar monitoringi va dars sifatini tahlil qilish\n        jarayonlarini yagona raqamli boshqaruv muhitida birlashtiradi.\n      </p>\n      <a class=\"x-link\" href=\"https://vision.namdu.uz/dashboard\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"UniVision platformasini yangi oynada ochish\">\n        PLATFORMANI KO‘RISH\n        <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\">\n          <path d=\"M7 17 17 7M7 7h10v10\"></path>\n        </svg>\n      </a>\n    </div>\n\n    <div class=\"x-bottom-data\">\n      <div>\n        <strong>370</strong>\n        <span>Auditoriya monitoringi</span>\n      </div>\n      <div>\n        <strong>12 292</strong>\n        <span>Umumiy o‘rin sig‘imi</span>\n      </div>\n      <div>\n        <strong>10</strong>\n        <span>Umumiy hudud kamerasi</span>\n      </div>\n      <div>\n        <strong>05</strong>\n        <span>Asosiy joylashuv</span>\n      </div>\n    </div>\n  </div>\n\n</section>"
+        },
+        {
+          "id": "uv-list",
+          "type": "list",
+          "title": "Nimalar qoldi",
+          "items": [
+            "Jonli mozaika",
+            "Umumiy hududlar",
+            "Auditoriyalar monitoringi",
+            "Xona sahifasi",
+            "Anomaliyalar",
+            "Dars tahlili",
+            "Excel hisobot"
+          ],
+          "peopleTitle": "Jamoa",
+          "people": []
+        }
+      ]
+    },
+    {
+      "id": "993e4e442bf2",
+      "hidden": false,
+      "slug": "namdu-mqb",
+      "name": "Namdu MQB",
+      "year": 2026,
+      "category": "Mulk hisobi",
+      "color": "#1b6fe8",
+      "tagline": "Universitet moddiy qiymatlari — yagona tizimda, aniq javobgarlik bilan.",
+      "services": "Raqamli pasport · Holatlar nazorati · Audit tarixi",
+      "stack": "HEMIS integratsiyasi",
+      "site": "",
+      "intro": "IT-jihozlar, texnik vositalar va mebel — har biri inventar raqami, narxi va parametrlari bilan raqamli pasportga ega.",
+      "story": "Har bir jihoz aniq xodimga biriktiriladi, holati (xodimda, omborda, ta’mirda, hisobdan chiqarilgan) real vaqtda ko‘rinadi, har bir harakat tarixda saqlanadi.",
+      "kept": [
+        "Boshqaruv paneli",
+        "Raqamli pasport",
+        "Barkod chop etish",
+        "Holatlar nazorati",
+        "Xodimlar (HEMIS)",
+        "O‘zgartirish tarixi",
+        "Statistika"
+      ],
+      "stats": [],
+      "gallery": [],
+      "team": [],
+      "cover": "/img/cover/mqb.png",
+      "blocks": [
+        {
+          "id": "mqb-deck",
+          "type": "slides",
+          "title": "Taqdimot",
+          "slides": [
+            {
+              "id": "mqb-s1",
+              "url": "Namdu MQB",
+              "points": [
+                "Har bir buyumning raqamli pasporti",
+                "Har bir jihoz aniq xodim javobgarligida",
+                "Xodimlar ro‘yxati HEMIS’dan avtomatik"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/mqb-dashboard-safe.png"
+                }
+              ],
+              "layout": "cover",
+              "kicker": "Namdu MQB · UniAssets",
+              "title": "Moddiy-texnik baza — to‘liq raqamli va shaffof",
+              "text": "Universitetning barcha moddiy qiymatlari — IT-jihozlar, texnik vositalar, mebel — yagona markazlashgan tizimda hisobga olinadi."
+            },
+            {
+              "id": "namdu-mqb-stats-s",
+              "layout": "stats",
+              "kicker": "Raqamlarda",
+              "images": [],
+              "points": [],
+              "title": "Mulk hisobi — raqamlarda",
+              "text": "Universitet mulki yagona raqamli bazaga to‘liq kiritildi.",
+              "items": [
+                [
+                  "2 282",
+                  "mulk hisobda",
+                  "har biri pasport bilan"
+                ],
+                [
+                  "2 313",
+                  "xodim ro‘yxatda",
+                  "HEMIS’dan"
+                ],
+                [
+                  "4",
+                  "holat nazorati",
+                  "xodimda · omborda · ta’mirda · chiqarilgan"
+                ]
+              ]
+            },
+            {
+              "id": "namdu-mqb-compare-s",
+              "layout": "compare",
+              "kicker": "Muammo va yechim",
+              "left": "Ilgari",
+              "right": "Endi",
+              "images": [],
+              "points": [],
+              "title": "Nima o‘zgardi",
+              "rows": [
+                [
+                  "Hisob qog‘ozda va tarqoq Excel fayllarda",
+                  "Barcha mulk bitta tizimda, raqamli pasport bilan"
+                ],
+                [
+                  "Ketgan xodimning mulki nazoratdan chiqardi",
+                  "Xodim nomidagi jihozlar bir zumda aniqlanadi"
+                ],
+                [
+                  "Inventarizatsiya haftalab cho‘zilardi",
+                  "Holat real vaqtda, tekshiruv — bir necha soatda"
+                ],
+                [
+                  "Kim nimani olgani noaniq edi",
+                  "Har bir harakat tarixda, tahrirlab bo‘lmaydi"
+                ]
+              ]
+            },
+            {
+              "id": "mqb-s3",
+              "url": "Namdu MQB",
+              "points": [
+                "2 282 ta mulk hisobda, 2 313 xodim ro‘yxatda",
+                "Holatlar: xodimda · omborda · ta’mirlashda · hisobdan chiqarilgan",
+                "Bo‘lim va kafedra kesimida statistika"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/mqb-dashboard-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Boshqaruv paneli",
+              "title": "Har bir mulkning holati — real vaqtda",
+              "text": "Bosh sahifada barcha aktivlar to‘rt holat bo‘yicha taqsimlangan: kimda turibdi, omborda nechta, nimasi ta’mirda, nimasi hisobdan chiqarilgan.",
+              "benefit": "Mulk holati bo‘yicha ma’lumot so‘ralmaydi — real vaqtda ko‘rinadi."
+            },
+            {
+              "id": "mqb-s4",
+              "url": "Namdu MQB",
+              "points": [
+                "Holatni o‘zgartirish — bir tugmada",
+                "Barkod chop etish",
+                "O‘zgartirish tarixi — har bir qadam saqlanadi"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/mqb-item-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Raqamli pasport",
+              "title": "Har bir buyumning o‘z pasporti",
+              "text": "Model, inventar va eski inventar raqami, narxi, o‘lchov birligi va texnik parametrlari — bitta kartochkada. Masalan, Canon LBP 3010 printeri: brend, chop etish turi, qog‘oz formati, ulanish interfeysi.",
+              "benefit": "Har bir buyumning qiymati, holati va egasi — bir kartochkada."
+            },
+            {
+              "id": "mqb-s5",
+              "url": "Namdu MQB",
+              "points": [
+                "Lavozim, holat va ish joyi bo‘yicha filtr",
+                "Ishdan bo‘shagan xodim darhol ko‘rinadi"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/mqb-staff-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Xodimlar va HEMIS",
+              "title": "Xodimlar ro‘yxati HEMIS’dan keladi",
+              "text": "Xodimlar, fakultetlar va kafedralar HEMIS bazasidan avtomatik olinadi. Yangi xodim kelishi yoki lavozim o‘zgarishi bilan tizim o‘zi yangilanadi.",
+              "benefit": "Ishdan ketayotgan xodim nomidagi mulk nazoratdan chiqmaydi."
+            },
+            {
+              "id": "mqb-s6",
+              "url": "",
+              "points": [
+                "Shaxsiy javobgarlik: har bir jihoz aniq xodim profiliga biriktiriladi",
+                "Aylanma varaqasi: xodim ketayotganda uning nomidagi mulklar bir zumda aniqlanadi",
+                "Audit: buyum kimdan kimga o‘tdi, qachon omborga yoki ta’mirga ketdi — hammasi saqlanadi, tahrirlab bo‘lmaydi",
+                "Rektorat har bir bo‘lim kesimida aktivlar soni, holati va balans qiymatini ko‘radi"
+              ],
+              "images": [],
+              "layout": "points",
+              "kicker": "Yagona raqamli ekotizim",
+              "title": "Javobgarlik aniq, tarix o‘chmaydi"
+            },
+            {
+              "id": "mqb-s7",
+              "url": "",
+              "points": [
+                "Aktivlarning yo‘qolishi va unutilishi xavfi keskin kamayadi",
+                "Ombordagi zaxira ko‘rinib turadi — takroriy xaridlar to‘xtaydi",
+                "Haftalab cho‘zilgan inventarizatsiya — bir necha soatlik elektron tekshiruvga aylanadi",
+                "Qaysi kafedraga yangi texnika kerakligi — faktlar asosida hal qilinadi"
+              ],
+              "images": [],
+              "layout": "points",
+              "kicker": "Kutilayotgan natija",
+              "title": "Mulk daxlsiz, byudjet aniq"
+            }
+          ]
+        },
+        {
+          "id": "mqb-info",
+          "type": "info",
+          "rows": [
+            [
+              "Mijoz",
+              "Namangan davlat universiteti"
+            ],
+            [
+              "Yo‘nalish",
+              "Mulk hisobi"
+            ],
+            [
+              "Yil",
+              "2026"
+            ],
+            [
+              "Imkoniyatlar",
+              "Raqamli pasport · Holatlar nazorati · Audit tarixi"
+            ],
+            [
+              "Integratsiya",
+              "HEMIS — xodimlar, fakultet va kafedralar"
+            ]
+          ],
+          "lead": "IT-jihozlar, texnik vositalar va mebel — har biri inventar raqami, narxi va parametrlari bilan raqamli pasportga ega.",
+          "body": "Har bir jihoz aniq xodimga biriktiriladi, holati (xodimda, omborda, ta’mirda, hisobdan chiqarilgan) real vaqtda ko‘rinadi, har bir harakat tarixda saqlanadi."
+        },
+        {
+          "id": "mqb-list",
+          "type": "list",
+          "title": "Nimalar qoldi",
+          "items": [
+            "Boshqaruv paneli",
+            "Raqamli pasport",
+            "Barkod chop etish",
+            "Holatlar nazorati",
+            "Xodimlar (HEMIS)",
+            "O‘zgartirish tarixi",
+            "Statistika"
+          ],
+          "peopleTitle": "Jamoa",
+          "people": []
+        }
+      ]
+    },
+    {
+      "id": "813bfeab6b90",
+      "hidden": false,
+      "slug": "raqamli-kutubxona",
+      "name": "Raqamli kutubxona",
+      "year": 2026,
+      "category": "Kutubxona",
+      "color": "#5b2fd0",
+      "tagline": "Bosma fond, PDF darsliklar va audio kitoblar — bitta tizimda, talaba va kutubxonachi uchun.",
+      "services": "Elektron katalog · Kitob ijarasi · Filiallar va hisobotlar",
+      "stack": "HEMIS integratsiyasi · Shtrix-kod va yorliq printeri",
+      "site": "arm.namdu.uz",
+      "intro": "Talaba katalogdan kitobni topadi, band qiladi yoki onlayn o‘qiydi; kutubxonachi berish, qaytarish, filiallar va hisobotlarni bitta paneldan boshqaradi.",
+      "story": "9 bino, 33 810 nusxa va 19 729 kitobxon — hammasi HEMIS bilan bog‘langan yagona bazada. Ijaralar shtrix-kod orqali, muddati o‘tganlar avtomatik ajratiladi, vazirlik hisobotlari bir tugmada tayyorlanadi.",
+      "kept": [
+        "Ochiq katalog",
+        "Boshqaruv paneli",
+        "Kitoblar fondi",
+        "Filiallar",
+        "Taqsimot",
+        "Kitob berish va qaytarish",
+        "Tashriflar jurnali",
+        "24 ta hisobot",
+        "Rollar va ruxsatlar"
+      ],
+      "stats": [],
+      "gallery": [],
+      "team": [],
+      "cover": "/img/cover/lib.png",
+      "blocks": [
+        {
+          "id": "lib-deck",
+          "type": "slides",
+          "title": "Taqdimot",
+          "slides": [
+            {
+              "id": "lib-s1",
+              "url": "arm.namdu.uz",
+              "points": [
+                "6 611 nomdagi kitob, 33 810 nusxa",
+                "3 035 elektron kitob",
+                "19 729 kitobxon HEMIS’dan avtomatik"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/lib-landing-safe.png"
+                }
+              ],
+              "layout": "cover",
+              "kicker": "Kutubxona AI · arm.namdu.uz",
+              "title": "Keyingi kitobingiz — bir qidiruv narida",
+              "text": "Universitetning butun kutubxona fondi — bosma kitoblar, PDF darsliklar va audio kitoblar — bitta raqamli tizimda: talaba uchun ochiq katalog, kutubxonachi uchun to‘liq boshqaruv paneli."
+            },
+            {
+              "id": "raqamli-kutubxona-stats-s",
+              "layout": "stats",
+              "kicker": "Raqamlarda",
+              "images": [],
+              "points": [],
+              "title": "Kutubxona fondi — raqamlarda",
+              "text": "Bosma, elektron va audio fond — bitta tizimda, 9 binoda.",
+              "items": [
+                [
+                  "6 611",
+                  "nomdagi kitob"
+                ],
+                [
+                  "33 810",
+                  "nusxa fondda",
+                  "97% javonda"
+                ],
+                [
+                  "3 035",
+                  "elektron kitob",
+                  "onlayn o‘qish"
+                ],
+                [
+                  "19 729",
+                  "kitobxon",
+                  "HEMIS’dan"
+                ]
+              ]
+            },
+            {
+              "id": "raqamli-kutubxona-compare-s",
+              "layout": "compare",
+              "kicker": "Muammo va yechim",
+              "left": "Ilgari",
+              "right": "Endi",
+              "images": [],
+              "points": [],
+              "title": "Nima o‘zgardi",
+              "rows": [
+                [
+                  "Kitob formulyar va qog‘oz jurnalda yozilardi",
+                  "Shtrix-kod skanerlanadi, ijara bir zumda"
+                ],
+                [
+                  "Kim qaysi kitobni olgani qidirib topilardi",
+                  "Muddati o‘tganlar har kuni ro‘yxatda"
+                ],
+                [
+                  "Kitobxonlar qo‘lda ro‘yxatga olinardi",
+                  "HEMIS’dan avtomatik, kuniga yangilanadi"
+                ],
+                [
+                  "Talaba kitobni kutubxonaga borib qidirardi",
+                  "Onlayn katalog: band qilish yoki o‘qish"
+                ]
+              ]
+            },
+            {
+              "id": "lib-s2",
+              "url": "arm.namdu.uz",
+              "points": [
+                "Band qiling — 32 855 bosma nusxa",
+                "Varaqlang — 3 035 elektron kitob",
+                "120 yo‘nalish: adabiyotshunoslik, tilshunoslik, pedagogika, tibbiyot…"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/lib-landing-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Ochiq katalog",
+              "title": "Bir kitob — uch yo‘l",
+              "text": "Talaba katalogda kitobni topadi va o‘ziga qulay yo‘lni tanlaydi: bosma nusxani onlayn band qiladi, darslikni telefonda varaqlaydi yoki audio kitobni tinglaydi.",
+              "benefit": "Talaba kitobni kutubxonaga bormasdan topadi, band qiladi yoki o‘qiydi."
+            },
+            {
+              "id": "lib-s3",
+              "url": "arm.namdu.uz",
+              "points": [
+                "Bugun: 134 berildi, 121 qaytdi",
+                "Fondning 97% javonda, 914 nusxa kitobxonlarda",
+                "Muddati o‘tgan va tasdiq kutayotgan ishlar ro‘yxati"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/lib-dashboard-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Boshqaruv paneli",
+              "title": "Butun fond bir qarashda",
+              "text": "Kutubxonachi kunni bitta sahifadan boshlaydi: bugun nechta kitob berildi va qaytdi, fondning qancha qismi javonda, qanchasi kitobxonlarda, nima e’tibor talab qiladi.",
+              "benefit": "Fond holati va qarzdorlar har kuni ko‘rinadi."
+            },
+            {
+              "id": "lib-s4",
+              "url": "arm.namdu.uz",
+              "points": [
+                "Nom, muallif yoki ISBN bo‘yicha qidiruv",
+                "Mualliflar, nashriyotlar, kategoriyalar, tillar — ma’lumotnomalarda"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/lib-books-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Kitoblar fondi",
+              "title": "Javon ko‘rinishidagi elektron katalog",
+              "text": "Har bir kitob muqovasi, muallifi, nusxalari, PDF va audio fayli bilan. Javon yoki jadval ko‘rinishi, nusxasi, PDF yoki audiosi borlar bo‘yicha filtr.",
+              "benefit": "Elektron katalog — qidiruv soniyalarda."
+            },
+            {
+              "id": "lib-s5",
+              "url": "arm.namdu.uz",
+              "points": [
+                "Filial bo‘yicha alohida statistika",
+                "Kitob qaysi binoda turgani aniq"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/lib-branches-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Filiallar",
+              "title": "9 bino — bitta tizim",
+              "text": "8 ta kutubxona va 1 ta bosh ombor: Lola, Yuksalish, Chorsu binolari, talabalar turar joylari. Har bir filialning manzili, mas’uli va xodimlari tizimda.",
+              "benefit": "Har bir kitob qaysi binoda turgani aniq."
+            },
+            {
+              "id": "lib-s6",
+              "url": "arm.namdu.uz",
+              "points": [
+                "30 ta o‘tkazma: 24 yakunlangan, 6 jarayonda",
+                "Har bir o‘tkazma uchun PDF hujjat"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/lib-transfers-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Taqsimot",
+              "title": "Kitob filiallar o‘rtasida — kuzatuv ostida",
+              "text": "Bosh ombordan filiallarga yuboriladigan har bir o‘tkazma raqamlanadi: yo‘lda, qabul qilingan yoki bekor qilingan. Qabul qiluvchi tasdiqlamaguncha kitob “yo‘lda” turadi.",
+              "benefit": "Filiallar o‘rtasidagi kitoblar yo‘qolmaydi — har o‘tkazma hujjatlashtiriladi."
+            },
+            {
+              "id": "lib-s7",
+              "url": "",
+              "points": [
+                "Kitob berish — talaba, xodim, doktorant",
+                "Qaytarib olish — shtrix-kod yoki kitobxon bo‘yicha",
+                "Muddati o‘tganlar avtomatik ajratiladi",
+                "Yorliq va shtrix-kod — kutubxona printeridan"
+              ],
+              "images": [],
+              "layout": "points",
+              "kicker": "Kitob aylanishi",
+              "title": "Shtrix-kod bilan — soniyalarda",
+              "text": "Kitob berish va qaytarish qo‘lda yozilmaydi: kitobxon tanlanadi, kitob shtrix-kodi skanerlanadi, muddat o‘zi qo‘yiladi."
+            },
+            {
+              "id": "lib-s8",
+              "url": "arm.namdu.uz",
+              "points": [
+                "Fakultet, guruh va tur bo‘yicha filtr",
+                "Talabalar, xodimlar, doktorantlar alohida"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/lib-give-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Kitob berish",
+              "title": "Kitobxon → shtrix-kod → tayyor",
+              "text": "19 250 kitobxon orasidan ism, guruh, JSHSHIR yoki telefon bo‘yicha qidiriladi, kitob shtrix-kodi skanerlanadi va ijara rasmiylashtiriladi.",
+              "benefit": "Formulyar va navbat yo‘q — ijara bir necha soniyada."
+            },
+            {
+              "id": "lib-s9",
+              "url": "arm.namdu.uz",
+              "points": [
+                "40 hozir ijarada: 7 kechikkan, 4 muddati yaqin",
+                "Har bir kitobning olingan va qaytish sanasi",
+                "Band qilinganlar ro‘yxati"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/lib-loans-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Ijaralar nazorati",
+              "title": "Kim, qaysi kitobni, qachongacha",
+              "text": "Faol ijaralar va topshirish muddati jonli kuzatiladi: kechikkan, muddati yaqin va vaqti borlar rangda ajratiladi.",
+              "benefit": "Qaytarilmagan kitoblar o‘z vaqtida aniqlanadi."
+            },
+            {
+              "id": "lib-s10",
+              "url": "arm.namdu.uz",
+              "points": [
+                "Talaba, xodim va mehmonlar alohida",
+                "Excel’ga eksport"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/lib-visits-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Tashriflar jurnali",
+              "title": "Kim kutubxonaga keldi — qayd etiladi",
+              "text": "Kitobxon HEMIS ID, shtrix-kod, JSHSHIR yoki ism bo‘yicha bir harakatda ro‘yxatga olinadi. Soatlar bo‘yicha oqim va kompyuter zali bandligi ko‘rinadi.",
+              "benefit": "Kutubxonadan foydalanish real raqamlarda ko‘rinadi."
+            },
+            {
+              "id": "lib-s11",
+              "url": "arm.namdu.uz",
+              "points": [
+                "350 muddati o‘tgan nusxa, 209 qarzdor — darhol ko‘rinadi",
+                "Barcha filiallar bo‘yicha markaziy monitoring"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/lib-reports-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Hisobotlar",
+              "title": "24 ta tayyor hisobot",
+              "text": "Fakultetlar bo‘yicha qarzdorlik va kitobxonlik, vazirlik andozasidagi rasmiy shakl (“shapka”), fond tarkibi, ABC tahlil, elektron resurslar, tashriflar va filiallar hisobotlari.",
+              "benefit": "Vazirlik hisobotlari qo‘lda emas, bir tugmada tayyorlanadi."
+            },
+            {
+              "id": "lib-s12",
+              "url": "arm.namdu.uz",
+              "points": [
+                "17 162 talaba, 699 doktorant, 2 567 xodim",
+                "77 bo‘lim, 2 347 guruh, 389 mutaxassislik",
+                "Kuniga avtomatik yangilanadi"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/lib-users-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Foydalanuvchilar va HEMIS",
+              "title": "Kitobxonlar ro‘yxati o‘zi yangilanadi",
+              "text": "Talabalar, doktorantlar, xodimlar, fakultetlar va guruhlar HEMIS’dan avtomatik sinxronlanadi — kutubxonachi hech kimni qo‘lda kiritmaydi.",
+              "benefit": "Kutubxonachi kitobxonlarni qo‘lda ro‘yxatga olmaydi."
+            },
+            {
+              "id": "lib-s13",
+              "url": "arm.namdu.uz",
+              "points": [
+                "9 ta rol, ruxsatlar 1 tadan 93 tagacha",
+                "Hisobdan chiqarish — faqat vakolatli hay’at a’zolari"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/lib-roles-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Rollar va ruxsatlar",
+              "title": "Har kim — faqat o‘z vakolatida",
+              "text": "SuperAdmin, kutubxonachi, kutubxona menejeri, dekan, rahbariyat, xodim va talaba — har bir rolning ruxsatlari alohida sozlanadi.",
+              "benefit": "Har bir xodim faqat o‘z vakolatida ishlaydi — fond himoyalangan."
+            },
+            {
+              "id": "lib-s14",
+              "url": "",
+              "points": [
+                "Formulyar va qog‘oz jurnal o‘rnini elektron ijara egalladi",
+                "Fondning har bir nusxasi qaysi javonda yoki kimda ekani ma’lum",
+                "Qarzdor va muddati o‘tgan kitoblar har kuni ko‘rinadi",
+                "Vazirlik hisobotlari bir tugmada tayyor"
+              ],
+              "images": [],
+              "layout": "points",
+              "kicker": "Natija",
+              "title": "Kutubxona — qog‘ozsiz va shaffof"
+            }
+          ]
+        },
+        {
+          "id": "lib-info",
+          "type": "info",
+          "rows": [
+            [
+              "Mijoz",
+              "Namangan davlat universiteti"
+            ],
+            [
+              "Yo‘nalish",
+              "Kutubxona"
+            ],
+            [
+              "Yil",
+              "2026"
+            ],
+            [
+              "Imkoniyatlar",
+              "Elektron katalog · Kitob ijarasi · Filiallar va hisobotlar"
+            ],
+            [
+              "Integratsiya",
+              "HEMIS — talabalar, xodimlar, guruhlar"
+            ],
+            [
+              "Sayt",
+              "arm.namdu.uz"
+            ]
+          ],
+          "lead": "Talaba katalogdan kitobni topadi, band qiladi yoki onlayn o‘qiydi; kutubxonachi berish, qaytarish, filiallar va hisobotlarni bitta paneldan boshqaradi.",
+          "body": "9 bino, 33 810 nusxa va 19 729 kitobxon — hammasi HEMIS bilan bog‘langan yagona bazada. Ijaralar shtrix-kod orqali, muddati o‘tganlar avtomatik ajratiladi, vazirlik hisobotlari bir tugmada tayyorlanadi."
+        },
+        {
+          "id": "lib-list",
+          "type": "list",
+          "title": "Nimalar qoldi",
+          "items": [
+            "Ochiq katalog",
+            "Boshqaruv paneli",
+            "Kitoblar fondi",
+            "Filiallar",
+            "Taqsimot",
+            "Kitob berish va qaytarish",
+            "Tashriflar jurnali",
+            "24 ta hisobot",
+            "Rollar va ruxsatlar"
+          ],
+          "peopleTitle": "Jamoa",
+          "people": []
+        }
+      ]
+    },
+    {
+      "id": "c3526600b73e",
+      "hidden": false,
+      "slug": "unidoc",
+      "name": "UniDoc",
+      "year": 2026,
+      "category": "O‘quv jarayoni",
+      "color": "#0f5c5c",
+      "tagline": "Fan katalogidan shaxsiy ish rejagacha — o‘quv-uslubiy hujjatlar elektron imzo bilan.",
+      "services": "Fan katalogi · O‘quv reja · Fan dasturi · O‘quv yuklama · Ish reja",
+      "stack": "HEMIS integratsiyasi · ERI (elektron imzo) · AI yordamchi",
+      "site": "unidoc.namdu.uz",
+      "intro": "O‘quv-uslubiy boshqarmaning barcha asosiy hujjatlari kafedrada tuziladi va tasdiqlash zanjiri bo‘ylab elektron yuboriladi.",
+      "story": "Fan katalogi, o‘quv reja, fan dasturi, o‘quv yuklama va o‘qituvchilarning shaxsiy ish rejalari bitta bazada. Har bir bosqich ERI bilan imzolanadi, rahbariyat jarayonni real vaqtda kuzatadi, Ali AI esa savollarga tizim ma’lumotlari asosida javob beradi.",
+      "kept": [
+        "Fan katalogi",
+        "O‘quv reja va grafik",
+        "Fan dasturi",
+        "O‘quv yuklama",
+        "Shaxsiy ish reja",
+        "Tasdiqlash zanjiri (ERI)",
+        "Statistika",
+        "Ali AI",
+        "HEMIS sinxronlash"
+      ],
+      "stats": [],
+      "gallery": [],
+      "team": [],
+      "cover": "/img/cover/ud.png",
+      "blocks": [
+        {
+          "id": "ud-deck",
+          "type": "slides",
+          "title": "Taqdimot",
+          "slides": [
+            {
+              "id": "ud-s1",
+              "url": "unidoc.namdu.uz",
+              "points": [
+                "32 kafedra, 1 367 faol professor-o‘qituvchi",
+                "Kafedra → dekan → O‘UB → prorektor → rektor",
+                "HEMIS bilan sinxron, AI yordamchi bilan"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/ud-home-safe.png"
+                }
+              ],
+              "layout": "cover",
+              "kicker": "UniDoc · O‘quv-uslubiy boshqarma",
+              "title": "O‘quv jarayoni hujjatlari — bitta raqamli zanjirda",
+              "text": "Fan katalogi, o‘quv reja, fan dasturi, o‘quv yuklama va o‘qituvchining shaxsiy ish rejasi endi qog‘ozda emas: kafedrada tuziladi, elektron imzo bilan tasdiqlanadi, rektoratgacha onlayn yetadi."
+            },
+            {
+              "id": "unidoc-stats-s",
+              "layout": "stats",
+              "kicker": "Raqamlarda",
+              "images": [],
+              "points": [],
+              "title": "O‘quv-uslubiy hujjatlar — raqamlarda",
+              "text": "Kafedralardan rektoratgacha bo‘lgan hujjat aylanishi bitta tizimda.",
+              "items": [
+                [
+                  "151",
+                  "fan katalogi",
+                  "5 610 fan"
+                ],
+                [
+                  "105",
+                  "o‘quv reja",
+                  "52 haftalik grafik bilan"
+                ],
+                [
+                  "193",
+                  "shaxsiy ish reja"
+                ],
+                [
+                  "74",
+                  "hujjat tasdiqlash zanjirida",
+                  "ERI orqali"
+                ]
+              ]
+            },
+            {
+              "id": "unidoc-compare-s",
+              "layout": "compare",
+              "kicker": "Muammo va yechim",
+              "left": "Ilgari",
+              "right": "Endi",
+              "images": [],
+              "points": [],
+              "title": "Nima o‘zgardi",
+              "rows": [
+                [
+                  "Hujjat papkada kabinetma-kabinet yurardi",
+                  "Elektron yuboriladi, ERI bilan imzolanadi"
+                ],
+                [
+                  "Hujjat kimda qolgani noma’lum edi",
+                  "Joriy tasdiqlovchi va kutish vaqti ko‘rinadi"
+                ],
+                [
+                  "Katalog, reja va yuklama alohida fayllarda",
+                  "Bitta bazada, bir-biriga bog‘langan"
+                ],
+                [
+                  "Hisobot uchun kafedralardan ma’lumot yig‘ilardi",
+                  "Statistika real vaqtda, Word/Excel/PDF bir tugmada"
+                ]
+              ]
+            },
+            {
+              "id": "ud-s2",
+              "url": "",
+              "points": [
+                "Fan katalogi — yo‘nalishning fanlari va soatlari",
+                "O‘quv reja — haftalar va semestrlar bo‘yicha grafik",
+                "Fan dasturi — har bir fanning mazmuni va ECTS",
+                "O‘quv yuklama va yillik yuklama — kafedra soatlari",
+                "Shaxsiy ish reja — har bir o‘qituvchi uchun"
+              ],
+              "images": [],
+              "layout": "points",
+              "kicker": "Hujjatlar zanjiri",
+              "title": "Bir yo‘nalish — olti hujjat, bitta tizim",
+              "text": "Har bir hujjat oldingisiga tayanadi — shuning uchun ular bitta bazada, bir-biriga bog‘langan holda yuritiladi."
+            },
+            {
+              "id": "ud-s3",
+              "url": "unidoc.namdu.uz",
+              "points": [
+                "120 bakalavr, 31 magistratura katalogi",
+                "24 kafedra kataloglarni yuritadi",
+                "Kunduzgi, kechki, masofaviy shakllar alohida"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/ud-catalog-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Fan katalogi",
+              "title": "151 katalog — 5 610 fan",
+              "text": "Bakalavr va magistratura yo‘nalishlarining fan kataloglari: har bir yo‘nalish uchun fanlar soni, umumiy soat, kafedra va mas’ul mudir.",
+              "benefit": "Yo‘nalishlar bo‘yicha fanlar va soatlar yagona standartda."
+            },
+            {
+              "id": "ud-s4",
+              "url": "unidoc.namdu.uz",
+              "points": [
+                "Kunduzgi 82 · kechki 15 · masofaviy 8",
+                "Word, Excel, PDF — bir tugmada",
+                "Tasdiqlangan reja tahrirlash uchun yopiladi"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/ud-schedule-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "O‘quv reja",
+              "title": "105 o‘quv reja — grafik bilan",
+              "text": "Har bir o‘quv reja kurslar va 52 hafta kesimida tuziladi: nazariy ta’lim, attestatsiya, malaka amaliyoti, YaDA, ta’tillar — rangli jadvalda.",
+              "benefit": "Grafik va rejalar avtomatik tekshiriladi, vazirlik shaklida chiqadi."
+            },
+            {
+              "id": "ud-s5",
+              "url": "unidoc.namdu.uz",
+              "points": [
+                "Yo‘nalish, ta’lim shakli va o‘quv yili bo‘yicha filtr",
+                "Har bir rejada kafedra va mas’ul mudir",
+                "Kurslar va semestrlar soni ko‘rinadi"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/ud-plans-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "O‘quv rejalar ro‘yxati",
+              "title": "Har bir yo‘nalish — o‘z kafedrasi bilan",
+              "text": "Yo‘nalish, ta’lim shakli, o‘quv yili, kurslar va semestrlar soni bo‘yicha qidiruv va filtr — kerakli rejani soniyalarda topish mumkin.",
+              "benefit": "Kerakli reja soniyalarda topiladi."
+            },
+            {
+              "id": "ud-s6",
+              "url": "",
+              "points": [
+                "Fan dasturi: fan kodi, semestr, ECTS",
+                "O‘quv yuklama: kafedraning yillik dars soatlari",
+                "Yillik hisobot — bir tugmada",
+                "Ma’ruza, amaliy, seminar, laboratoriya soatlari tahlili"
+              ],
+              "images": [],
+              "layout": "points",
+              "kicker": "Fan dasturi va o‘quv yuklama",
+              "title": "Keyingi bosqich — tayyor modullar",
+              "text": "O‘quv rejadan keyingi hujjatlar ham shu tizimda yaratiladi va bir xil tartibda tasdiqlanadi."
+            },
+            {
+              "id": "ud-s7",
+              "url": "unidoc.namdu.uz",
+              "points": [
+                "“Tasdiqlayman” — prorektor imzosi",
+                "Kafedra majlisida muhokama qilinadi",
+                "O‘qituvchi rejani elektron qabul qiladi"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/ud-workplan-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Shaxsiy ish reja",
+              "title": "Vazirlik shaklidagi rasmiy hujjat — onlayn",
+              "text": "Professor-o‘qituvchining yillik ish rejasi to‘liq rasmiy shaklda: o‘quv, uslubiy, ilmiy ishlar, ustoz-shogird, BMI, magistrlik, hisobot va xulosa bo‘limlari.",
+              "benefit": "O‘qituvchi rejasi qog‘ozsiz tuziladi va tasdiqlanadi."
+            },
+            {
+              "id": "ud-s8",
+              "url": "unidoc.namdu.uz",
+              "points": [
+                "150 qoralama, 41 ko‘rib chiqilmoqda, 2 rad etilgan",
+                "F.I.Sh. yoki kafedra bo‘yicha qidiruv"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/ud-workplans-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Ish rejalar nazorati",
+              "title": "193 ish reja — holati bir qarashda",
+              "text": "Qaysi o‘qituvchining rejasi qoralamada, qaysi biri ko‘rib chiqilmoqda yoki rad etilgan — kafedra va o‘quv yili bo‘yicha ko‘rinadi.",
+              "benefit": "Qaysi kafedra kechikayotgani darhol ko‘rinadi."
+            },
+            {
+              "id": "ud-s9",
+              "url": "unidoc.namdu.uz",
+              "points": [
+                "74 hujjat: 39 jarayonda, 12 rad etilgan, 23 qoralama",
+                "Hozir kimda kutilayotgani ko‘rinadi",
+                "Rad etilsa — sababi bilan qaytadi"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/ud-docs-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Tasdiqlash zanjiri",
+              "title": "Elektron imzo — kafedradan rektorgacha",
+              "text": "Hujjat yaratilgach, bosqichma-bosqich yuboriladi: dekan, O‘quv-uslubiy boshqarma boshlig‘i, o‘quv ishlari bo‘yicha prorektor va rektor. Har bir qadam ERI orqali imzolanadi va tarixda saqlanadi.",
+              "benefit": "Hujjat kabinetma-kabinet yurmaydi — imzolar onlayn qo‘yiladi."
+            },
+            {
+              "id": "ud-s10",
+              "url": "unidoc.namdu.uz",
+              "points": [
+                "32 faol kafedra, 1 367 professor-o‘qituvchi",
+                "548 fan nomzodi (PhD), 109 fan doktori (DSc)",
+                "Kimda nima kutilayotgani — bir bosishda"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/ud-stats-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Statistika va monitoring",
+              "title": "Kafedralar holati — real vaqtda",
+              "text": "Rahbariyat har bir bo‘lim — katalog, reja, yuklama, ish reja, kafedralar — bo‘yicha jonli statistikani o‘quv yili kesimida ko‘radi.",
+              "benefit": "Rahbariyat butun o‘quv-uslubiy jarayonni real vaqtda ko‘radi."
+            },
+            {
+              "id": "ud-s11",
+              "url": "unidoc.namdu.uz",
+              "points": [
+                "Bosh sahifada — kunlik AI xulosa va signallar",
+                "Xavfsizlik: shubhali kirishlar kuzatiladi"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/ud-ai-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Ali AI",
+              "title": "Sun’iy intellekt yordamchisi",
+              "text": "Ali AI tizim ma’lumotlari asosida savollarga javob beradi: umumiy hisobot, tasdiqlanishi kutilayotgan hujjatlar, kafedra o‘qituvchilari, o‘quv rejalar, HEMIS sinxronlash holati.",
+              "benefit": "Savolga javob olish uchun hisobot kutish shart emas."
+            },
+            {
+              "id": "ud-s12",
+              "url": "unidoc.namdu.uz",
+              "points": [
+                "77 fakultet va bo‘lim, 242 lavozim",
+                "Tizim va kirish loglari yuritiladi"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/ud-users-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Foydalanuvchilar va HEMIS",
+              "title": "Xodimlar HEMIS’dan — rollar RBAC bilan",
+              "text": "2 464 foydalanuvchi HEMIS’dan olinadi: tuzilma, lavozimlar, ilmiy darajalar, bakalavr va magistratura yo‘nalishlari ham sinxronlanadi. Har kim faqat o‘z roli doirasida ishlaydi.",
+              "benefit": "Xodimlar ro‘yxati va lavozimlar har doim dolzarb."
+            },
+            {
+              "id": "ud-s13",
+              "url": "",
+              "points": [
+                "Hujjat kafedradan rektorgacha kabinetma-kabinet yurmaydi",
+                "Har bir hujjat kimda turgani va qachondan kutilayotgani ko‘rinadi",
+                "Katalog, reja, dastur, yuklama va ish reja bir-biriga bog‘langan",
+                "Vazirlik shakllari — Word, Excel, PDF’da bir tugmada"
+              ],
+              "images": [],
+              "layout": "points",
+              "kicker": "Natija",
+              "title": "Qog‘oz papkadan — elektron imzogacha"
+            }
+          ]
+        },
+        {
+          "id": "ud-info",
+          "type": "info",
+          "rows": [
+            [
+              "Mijoz",
+              "Namangan davlat universiteti — O‘quv-uslubiy boshqarma"
+            ],
+            [
+              "Yo‘nalish",
+              "O‘quv jarayoni"
+            ],
+            [
+              "Yil",
+              "2026"
+            ],
+            [
+              "Hujjatlar",
+              "Fan katalogi · O‘quv reja · Fan dasturi · O‘quv yuklama · Ish reja"
+            ],
+            [
+              "Integratsiya",
+              "HEMIS integratsiyasi · ERI (elektron imzo) · AI yordamchi"
+            ],
+            [
+              "Sayt",
+              "unidoc.namdu.uz"
+            ]
+          ],
+          "lead": "O‘quv-uslubiy boshqarmaning barcha asosiy hujjatlari kafedrada tuziladi va tasdiqlash zanjiri bo‘ylab elektron yuboriladi.",
+          "body": "Fan katalogi, o‘quv reja, fan dasturi, o‘quv yuklama va o‘qituvchilarning shaxsiy ish rejalari bitta bazada. Har bir bosqich ERI bilan imzolanadi, rahbariyat jarayonni real vaqtda kuzatadi, Ali AI esa savollarga tizim ma’lumotlari asosida javob beradi."
+        },
+        {
+          "id": "ud-list",
+          "type": "list",
+          "title": "Nimalar qoldi",
+          "items": [
+            "Fan katalogi",
+            "O‘quv reja va grafik",
+            "Fan dasturi",
+            "O‘quv yuklama",
+            "Shaxsiy ish reja",
+            "Tasdiqlash zanjiri (ERI)",
+            "Statistika",
+            "Ali AI",
+            "HEMIS sinxronlash"
+          ],
+          "peopleTitle": "Jamoa",
+          "people": []
+        }
+      ]
+    },
+    {
+      "id": "c0d6a7b7b4f3",
+      "hidden": false,
+      "slug": "lms",
+      "name": "NamDU LMS",
+      "year": 2026,
+      "category": "Boshqaruv",
+      "color": "#1f3c66",
+      "tagline": "Universitet boshqaruvi bitta tizimda — hisobot so‘rab fakultetlarga xat yozilmaydi.",
+      "services": "Rektorat paneli · Erta ogohlantirish · Davomat · PWA",
+      "site": "lms.namsu.uz",
+      "stack": "Go · React · PostgreSQL · Docker",
+      "intro": "O‘quv, moliya va kadrlar ma’lumotlari HEMIS’dan har kecha avtomatik olinadi. Rahbar ertalab tayyor manzarani ko‘radi — 15 937 faol talaba, 899 professor-o‘qituvchi, fakultetlar yonma-yon.",
+      "story": "Tizim muammoni o‘zi topadi: davomati, qarzi va kontraktiga qarab har bir talabaga xavf balli hisoblanadi — 247 ta talaba semestr boshidayoq ko‘rinadi. Universitet pasporti bir tugma bilan Excel’ga chiqadi, dars jadvali internet bo‘lmasa ham telefonda ochiladi.",
+      "kept": [
+        "Rektorat paneli",
+        "Universitet pasporti",
+        "Kontrakt to‘lovlari",
+        "Erta ogohlantirish",
+        "Davomat nazorati",
+        "Auditoriyalar bandligi",
+        "Telefon ilovasi (PWA)"
+      ],
+      "stats": [
+        [
+          "15 937",
+          "faol talaba"
+        ],
+        [
+          "247",
+          "erta aniqlangan xavf"
+        ],
+        [
+          "80.1%",
+          "jurnal to‘ldirilgan"
+        ]
+      ],
+      "cover": "/img/cover/lms.png",
+      "gallery": [
+        "/img/cover/lms-1.png",
+        "/img/cover/lms-2.png",
+        "/img/cover/lms-3.png",
+        "/img/cover/lms-4.png"
+      ],
+      "blocks": [
+        {
+          "id": "lms-deck",
+          "type": "slides",
+          "title": "Taqdimot",
+          "slides": [
+            {
+              "id": "lms-s1",
+              "url": "lms.namsu.uz",
+              "points": [
+                "Hisobot uchun fakultetlarga xat yozilmaydi",
+                "Ma’lumot qo‘lda kiritilmaydi — HEMIS’dan o‘zi keladi",
+                "Rahbar ma’lumotni kutmaydi — darhol ko‘radi"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/lms-executive.jpg",
+                  "caption": "Rektorat paneli"
+                }
+              ],
+              "layout": "cover",
+              "kicker": "NamDU LMS · Rahbariyat uchun",
+              "title": "Universitet boshqaruvi — bitta tizimda",
+              "text": "O‘quv, moliya va kadrlar ma’lumotlari HEMIS’dan har kecha avtomatik olinadi — hech kim raqam yig‘ib, hisobot tuzib o‘tirmaydi."
+            },
+            {
+              "id": "lms-stats-s",
+              "layout": "stats",
+              "kicker": "Raqamlarda",
+              "images": [],
+              "points": [],
+              "title": "Bir tizim — butun universitet manzarasi",
+              "text": "Rahbar ertalab tayyor raqamlarni ko‘radi — hech kim hisobot yig‘ib o‘tirmaydi.",
+              "items": [
+                [
+                  "15 937",
+                  "faol talaba",
+                  "HEMIS’dan har kecha"
+                ],
+                [
+                  "899",
+                  "professor-o‘qituvchi"
+                ],
+                [
+                  "247",
+                  "xavf ostidagi talaba",
+                  "semestr boshida aniqlandi"
+                ],
+                [
+                  "80.1%",
+                  "jurnal to‘ldirilgan",
+                  "har kuni nazorat"
+                ]
+              ]
+            },
+            {
+              "id": "lms-compare-s",
+              "layout": "compare",
+              "kicker": "Muammo va yechim",
+              "left": "Ilgari",
+              "right": "Endi",
+              "images": [],
+              "points": [],
+              "title": "Nima o‘zgardi",
+              "rows": [
+                [
+                  "Hisobot uchun fakultetlarga xat yozilardi",
+                  "Raqam ertalab tayyor turadi"
+                ],
+                [
+                  "Ma’lumot qo‘lda kiritilardi",
+                  "HEMIS’dan har kecha o‘zi keladi"
+                ],
+                [
+                  "Xavfli talaba semestr oxirida bilinardi",
+                  "Semestr boshidayoq ro‘yxatda"
+                ]
+              ]
+            },
+            {
+              "id": "lms-s2",
+              "url": "lms.namsu.uz",
+              "points": [
+                "15 937 faol talaba, 899 professor-o‘qituvchi",
+                "Kontrakt, davomat jurnali, ilmiy salohiyat, GPA — bitta ekranda",
+                "Rahbar ertalab tayyor manzarani ko‘radi"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/lms-executive.jpg"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Rektorat paneli",
+              "title": "Asosiy ko‘rsatkichlar bir sahifada",
+              "text": "Fakultetlar yonma-yon solishtiriladi — qaysi biri ortda qolayotgani rangdan darhol bilinadi: yashil — o‘rtachadan yaxshi, qizil — sezilarli yomon.",
+              "benefit": "Qaror uchun ma’lumot so‘ralmaydi — u har kuni ertalab tayyor."
+            },
+            {
+              "id": "lms-s3",
+              "url": "lms.namsu.uz",
+              "points": [
+                "Qo‘lda yig‘ish va qayta tekshirish yo‘q",
+                "Har doim eng yangi raqamlar bilan"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/lms-passport.jpg"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Universitet pasporti",
+              "title": "Hujjat tizimning o‘zida shakllanadi",
+              "text": "Ilgari qo‘lda to‘ldiriladigan universitet pasporti endi tizimda o‘zi tayyorlanadi va bir tugma bilan Excel faylga chiqadi.",
+              "benefit": "Haftalab qo‘lda tayyorlangan hujjat endi bir tugmada."
+            },
+            {
+              "id": "lms-s4",
+              "url": "lms.namsu.uz",
+              "points": [
+                "Fakultet → kurs → talaba darajasigacha",
+                "To‘lamaganlar ro‘yxati tayyor"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/lms-finance.jpg"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Kontrakt to‘lovlari",
+              "title": "Buxgalteriyaga so‘rov yubormasdan",
+              "text": "Har bir fakultet, kurs va talabaning to‘lov holati shu zahoti ko‘rinadi — kontrakt bo‘yicha ma’lumot so‘rab buxgalteriyaga murojaat qilish shart emas.",
+              "benefit": "Moliyaviy intizom ochiq: to‘lamaganlar ro‘yxati darhol ko‘rinadi."
+            },
+            {
+              "id": "lms-s5",
+              "url": "",
+              "points": [
+                "Erta ogohlantirish",
+                "Davomat nazorati",
+                "Ma’lumotlar sifati",
+                "Auditoriyalar bandligi"
+              ],
+              "images": [],
+              "layout": "points",
+              "kicker": "NamDU LMS · Nazorat",
+              "title": "Muammo kechikmasdan ko‘rinadi",
+              "text": "Tizim har kuni ma’lumotlarni o‘zi tekshiradi va e’tibor talab qiladigan holatlarni ro‘yxat qilib beradi. Mas’ul xodim muammoni qidirmaydi — uni hal qiladi."
+            },
+            {
+              "id": "lms-s6",
+              "url": "lms.namsu.uz",
+              "points": [
+                "Xavf balli: davomat, akademik qarz, baho va kontrakt holatidan",
+                "247 ta talaba — yuqori xavf, 12 932 — o‘rta xavf",
+                "Ro‘yxat Excel’ga bir tugmada"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/lms-risk-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Erta ogohlantirish",
+              "title": "Xavf ostidagi talaba — semestr boshida",
+              "text": "Darsni ko‘p qoldirayotgan yoki qarzi to‘planayotgan talaba semestr oxirida emas, boshida aniqlanadi. Tyutor kim bilan ishlash kerakligini aniq biladi.",
+              "benefit": "Talabani o‘qishdan chetlashtirilishdan oldin saqlab qolish imkoni."
+            },
+            {
+              "id": "lms-s7",
+              "url": "lms.namsu.uz",
+              "points": [
+                "Jurnalni to‘ldirmagan yoki kechiktirgan o‘qituvchi ro‘yxatda",
+                "Qog‘oz jurnallarni varaqlash shart emas"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/lms-attendance.jpg"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Davomat nazorati",
+              "title": "Jurnal HEMIS bilan solishtiriladi",
+              "text": "Dars jadvalidagi har bir dars HEMIS jurnali bilan tekshiriladi. Turniketlar bilan sinxron: darsi bor talaba hozir universitet hududidami yoki yo‘qmi — tizim darhol ko‘rsatadi.",
+              "benefit": "O‘qituvchi intizomi qog‘oz jurnalsiz, xolis nazorat qilinadi."
+            },
+            {
+              "id": "lms-s8",
+              "url": "lms.namsu.uz",
+              "points": [
+                "10 196 tyutor biriktirilmagan talaba aniqlandi",
+                "7 469 davomat olinmagan dars topildi",
+                "3 350 plagiatga tekshirilmagan bitiruv ishi"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/lms-quality.jpg"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Ma’lumotlar sifati",
+              "title": "Kamchilik tekshiruvdan oldin topiladi",
+              "text": "Tizim HEMIS’dagi kamchiliklarni o‘zi qidiradi: tyutorsiz talaba, plagiatga tekshirilmagan bitiruv ishi kabi holatlar tekshiruv kelishidan oldin ko‘rinadi.",
+              "benefit": "Tekshiruv kelguncha kamchiliklar o‘zimizda topiladi va tuzatiladi."
+            },
+            {
+              "id": "lms-s9",
+              "url": "lms.namsu.uz",
+              "points": [
+                "Xonalar bandligi kun va soat bo‘yicha",
+                "Dars to‘qnashuvlari avtomatik topiladi"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/lms-rooms.jpg"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Auditoriyalar",
+              "title": "Har bir xonaning bandligi ko‘rinadi",
+              "text": "Bir xonaga bir vaqtda ikki dars qo‘yilsa, tizim buni darhol ko‘rsatadi.",
+              "benefit": "Xonalar to‘qnashuvi va bo‘sh turgan auditoriyalar oldindan ko‘rinadi."
+            },
+            {
+              "id": "lms-s10",
+              "url": "lms.namsu.uz",
+              "points": [
+                "Guruh yoki o‘qituvchi bo‘yicha haftalik jadval",
+                "HEMIS bilan avtomatik sinxron",
+                "Telefonda ilova kabi o‘rnatiladi"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/lms-schedule.jpg"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Dars jadvali",
+              "title": "Jadval internet bo‘lmasa ham ochiladi",
+              "text": "Guruh yoki o‘qituvchi bo‘yicha haftalik jadval. Ma’lumotlar HEMIS’dan sinxronlanadi va telefonda oflayn ishlaydi.",
+              "benefit": "Talaba va o‘qituvchi jadvalni istalgan joyda, internetsiz ham ko‘radi."
+            },
+            {
+              "id": "lms-s11",
+              "url": "lms.namsu.uz",
+              "points": [
+                "Dars jadvali telefonda, internet bo‘lmasa ham ochiladi",
+                "Ariza dekanatga bormasdan yuboriladi, holati kuzatib boriladi",
+                "Imtihon va topshiriq muddati haqida Telegram’ga eslatma keladi",
+                "Talaba kontrakti, bahosi va davomatini o‘zi ko‘radi"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/lms-m-dashboard.jpg",
+                  "caption": "Bosh sahifa"
+                },
+                {
+                  "src": "/img/real/lms-m-executive.jpg",
+                  "caption": "Rektorat paneli"
+                },
+                {
+                  "src": "/img/real/lms-m-risk.jpg",
+                  "caption": "Erta ogohlantirish"
+                }
+              ],
+              "layout": "phones",
+              "kicker": "NamDU LMS · Talaba va o‘qituvchi uchun",
+              "title": "Navbatsiz, qog‘ozsiz — telefondan",
+              "text": "Tizim telefonda to‘liq ishlaydi va ilova kabi o‘rnatiladi.",
+              "benefit": "Dekanatdagi navbatlar va qog‘oz arizalar yo‘qoladi."
+            },
+            {
+              "id": "lms-s12",
+              "url": "",
+              "points": [
+                "Rahbar qarorni aniq ma’lumot asosida qabul qiladi",
+                "Xodim qog‘oz va qo‘lda hisobotdan ozod",
+                "Talaba xizmatni navbatsiz oladi"
+              ],
+              "images": [],
+              "layout": "points",
+              "kicker": "Natija",
+              "title": "Qaror — aniq ma’lumot asosida",
+              "text": "Ma’lumot bir marta, HEMIS’da kiritiladi — qolganini tizim o‘zi bajaradi."
+            }
+          ]
+        },
+        {
+          "id": "b-info",
+          "type": "info",
+          "rows": [
+            [
+              "Mijoz",
+              "Namangan davlat universiteti"
+            ],
+            [
+              "Yo‘nalish",
+              "Boshqaruv"
+            ],
+            [
+              "Yil",
+              "2026"
+            ],
+            [
+              "Texnologiya",
+              "Go · React · PostgreSQL · Docker"
+            ],
+            [
+              "Imkoniyatlar",
+              "Rektorat paneli · Erta ogohlantirish · Davomat · PWA"
+            ],
+            [
+              "Sayt",
+              "lms.namsu.uz"
+            ]
+          ],
+          "lead": "O‘quv, moliya va kadrlar ma’lumotlari HEMIS’dan har kecha avtomatik olinadi. Rahbar ertalab tayyor manzarani ko‘radi — 15 937 faol talaba, 899 professor-o‘qituvchi, fakultetlar yonma-yon.",
+          "body": "Tizim muammoni o‘zi topadi: davomati, qarzi va kontraktiga qarab har bir talabaga xavf balli hisoblanadi — 247 ta talaba semestr boshidayoq ko‘rinadi. Universitet pasporti bir tugma bilan Excel’ga chiqadi, dars jadvali internet bo‘lmasa ham telefonda ochiladi."
+        },
+        {
+          "id": "b-list",
+          "type": "list",
+          "title": "Nimalar qoldi",
+          "items": [
+            "Rektorat paneli",
+            "Universitet pasporti",
+            "Kontrakt to‘lovlari",
+            "Erta ogohlantirish",
+            "Davomat nazorati",
+            "Auditoriyalar bandligi",
+            "Telefon ilovasi (PWA)"
+          ],
+          "peopleTitle": "Jamoa",
+          "people": []
+        }
+      ]
+    },
+    {
+      "id": "3dbfdae35def",
+      "hidden": false,
+      "slug": "keldi-ketti",
+      "name": "Keldi-Ketti",
+      "year": 2026,
+      "category": "Davomat",
+      "color": "#12b383",
+      "tagline": "33 ta FaceID turniket HEMIS bilan bog‘langan — har bir kirish-chiqish o‘zi qayd etiladi.",
+      "services": "FaceID turniketlar · HEMIS sinxron · Tungi nazorat",
+      "site": "Desktop ilova (.exe)",
+      "stack": "Go · Wails · React · TypeScript",
+      "intro": "To‘rtta binodagi 33 ta turniket bitta tizimga ulangan. Talaba yoki xodim yuzini ko‘rsatib o‘tadi — kim, qachon, qaysi eshikdan kirgani surati bilan shu zahoti ko‘rinadi.",
+      "story": "50 699 talaba va 2 452 xodim ma’lumoti HEMIS’dan olinadi, 17 772 ta yuz surati turniketlarga bir tugma bilan yuklanadi. Bir kunda 22 646 ta o‘tish, arxivda 607 808 ta yozuv. 22:00–05:00 oralig‘idagi harakatlar alohida hisobotda.",
+      "kept": [
+        "Tahlil markazi",
+        "Jonli harakatlar",
+        "Fakultetlar reytingi",
+        "FaceID’ga yuklash",
+        "Tungi nazorat",
+        "Qurilmalar holati"
+      ],
+      "stats": [
+        [
+          "33",
+          "FaceID turniket"
+        ],
+        [
+          "607 808",
+          "qayd etilgan o‘tish"
+        ],
+        [
+          "17 772",
+          "yuz surati"
+        ]
+      ],
+      "cover": "/img/cover/kk.png",
+      "gallery": [
+        "/img/cover/kk-1.png",
+        "/img/cover/kk-2.png",
+        "/img/cover/kk-3.png",
+        "/img/cover/kk-4.png"
+      ],
+      "blocks": [
+        {
+          "id": "kk-deck",
+          "type": "slides",
+          "title": "Taqdimot",
+          "slides": [
+            {
+              "id": "kk-s1",
+              "url": "Keldi-Ketti · Davomat AI",
+              "points": [
+                "Davomat qo‘lda yozilmaydi — turniket o‘zi qayd etadi",
+                "Hisobot Excel’ga bir tugma bilan chiqadi",
+                "607 808 ta o‘tish arxivda, istalgan payt topiladi"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/kk-stats.jpg",
+                  "caption": "Tahlil markazi"
+                }
+              ],
+              "layout": "cover",
+              "kicker": "Keldi-Ketti · Davomat nazorati",
+              "title": "Kim keldi, kim ketdi — bir qarashda",
+              "text": "33 ta FaceID turniket HEMIS bilan bog‘langan — har bir kirish-chiqish o‘zi qayd etiladi, qog‘oz jurnal kerak emas."
+            },
+            {
+              "id": "keldi-ketti-stats-s",
+              "layout": "stats",
+              "kicker": "Raqamlarda",
+              "images": [],
+              "points": [],
+              "title": "Davomat — raqamlarda",
+              "text": "Har bir kirish-chiqish FaceID orqali o‘zi qayd etiladi.",
+              "items": [
+                [
+                  "33",
+                  "FaceID turniket",
+                  "4 ta binoda"
+                ],
+                [
+                  "607 808",
+                  "qayd etilgan o‘tish",
+                  "arxivda saqlanadi"
+                ],
+                [
+                  "17 772",
+                  "yuz surati",
+                  "HEMIS’dan avtomatik"
+                ],
+                [
+                  "22 646",
+                  "o‘tish bir kunda",
+                  "10-noyabr"
+                ]
+              ]
+            },
+            {
+              "id": "keldi-ketti-compare-s",
+              "layout": "compare",
+              "kicker": "Muammo va yechim",
+              "left": "Ilgari",
+              "right": "Endi",
+              "images": [],
+              "points": [],
+              "title": "Nima o‘zgardi",
+              "rows": [
+                [
+                  "Davomat qog‘oz jurnalda, qo‘lda yuritilardi",
+                  "Har bir o‘tish FaceID orqali o‘zi qayd etiladi"
+                ],
+                [
+                  "Hisobot uchun kunlab ma’lumot yig‘ilardi",
+                  "Hisobot istalgan daqiqada tayyor, Excel’ga bir tugmada"
+                ],
+                [
+                  "Kim binoda ekanini aniq bilib bo‘lmasdi",
+                  "Kim, qachon, qaysi eshikdan o‘tgani darhol ko‘rinadi"
+                ],
+                [
+                  "Turniketga har bir yuz qo‘lda kiritilardi",
+                  "HEMIS’dagi surat turniketga o‘zi yuklanadi"
+                ]
+              ]
+            },
+            {
+              "id": "kk-s2",
+              "url": "Keldi-Ketti · Davomat AI",
+              "points": [
+                "Qatnashganlar: 7 942 / 17 779 (44%)",
+                "Eng tig‘iz vaqt: 12:00–13:00",
+                "Bugun, kecha, 7 va 30 kun kesimida; CSV eksport"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/kk-stats.jpg"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Tahlil markazi",
+              "title": "Kunlik oqim bir sahifada",
+              "text": "Kunlik oqim, eng tig‘iz soat va binolar yuklamasi bitta sahifada ko‘rinadi: birgina 10-noyabr kuni 22 646 ta o‘tish qayd etilgan.",
+              "benefit": "Binolar yuklamasi va eng tig‘iz soatlar asosida qaror qabul qilinadi."
+            },
+            {
+              "id": "kk-s3",
+              "url": "Keldi-Ketti · Davomat AI",
+              "points": [
+                "Keldi / ketdi holati, bino va qurilma",
+                "Xodim va talaba alohida belgilanadi"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/kk-live-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Jonli harakatlar",
+              "title": "Har bir o‘tish — shu zahoti",
+              "text": "Kim, qaysi bino va turniketdan, soat nechada o‘tgani surati bilan shu zahoti ko‘rinadi.",
+              "benefit": "Kim binoda ekanini istalgan daqiqada aniq bilish mumkin."
+            },
+            {
+              "id": "kk-s4",
+              "url": "Keldi-Ketti · Davomat AI",
+              "points": [
+                "11 fakultet, 200 guruh, 51 doktorantura",
+                "O‘rtacha davomat 66%, eng yuqori — Jahon tillari (97%)"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/kk-faculty.jpg"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Fakultetlar reytingi",
+              "title": "Ortda qolayotgani darhol ko‘rinadi",
+              "text": "Fakultet va guruhlar qatnashuv bo‘yicha solishtiriladi — qaysi biri ortda qolayotgani darhol bilinadi.",
+              "benefit": "Davomati past fakultet bilan darhol ishlash imkoni."
+            },
+            {
+              "id": "kk-s5",
+              "url": "",
+              "points": [
+                "HEMIS bilan sinxron",
+                "FaceID’ga yuklash",
+                "Tungi nazorat",
+                "Qurilmalar holati"
+              ],
+              "images": [],
+              "layout": "points",
+              "kicker": "Keldi-Ketti · Avtomatlashtirish",
+              "title": "Qo‘lda ish yo‘q — tizim o‘zi bajaradi",
+              "text": "Ma’lumot HEMIS’dan olinadi, turniketlarga o‘zi yuklanadi, nosozlik va tungi harakatlar o‘zi aniqlanadi."
+            },
+            {
+              "id": "kk-s6",
+              "url": "Keldi-Ketti · Davomat AI",
+              "points": [
+                "16 424 faol o‘qiyotgan, 34 275 bitirgan / arxiv",
+                "16 420 talabaning yuz surati bor"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/kk-students-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "HEMIS bilan sinxron",
+              "title": "Yangi talaba qo‘lda kiritilmaydi",
+              "text": "50 699 talaba va 2 452 xodim ma’lumoti HEMIS’dan avtomatik olinadi.",
+              "benefit": "Ro‘yxatga qo‘lda kiritish va xatolar yo‘q."
+            },
+            {
+              "id": "kk-s7",
+              "url": "Keldi-Ketti · Davomat AI",
+              "points": [
+                "Navbat va qog‘oz ariza yo‘q",
+                "Bir vaqtda barcha terminallarga parallel yuklash"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/kk-enroll.jpg"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "FaceID’ga yuklash",
+              "title": "Bir tugma — 33 ta turniket",
+              "text": "17 772 ta yuz surati HEMIS’dan olingan va turniketlarga bir tugma bilan yuklanadi. Ilgari har bir odamni turniketga alohida, qo‘lda ro‘yxatdan o‘tkazish kerak edi.",
+              "benefit": "Har bir talabani alohida ro‘yxatga olishga ketadigan oylik mehnat — bir tugmada."
+            },
+            {
+              "id": "kk-s8",
+              "url": "Keldi-Ketti · Davomat AI",
+              "points": [
+                "Sana oralig‘i va fakultet bo‘yicha filtr",
+                "Kirish, chiqish va noyob shaxslar soni"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/kk-night-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Tungi nazorat",
+              "title": "22:00–05:00 alohida hisobotda",
+              "text": "Kechasi har bir kirish-chiqish alohida hisobotda ko‘rinadi: turar joy va hudud xavfsizligi nazoratda.",
+              "benefit": "Talabalar turar joyi va hudud xavfsizligi kecha-kunduz nazoratda."
+            },
+            {
+              "id": "kk-s9",
+              "url": "Keldi-Ketti · Davomat AI",
+              "points": [
+                "4 bino, 33 ta FaceID turniket",
+                "Online / offline holati jonli"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/kk-devices.jpg"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Qurilmalar holati",
+              "title": "Aloqa uzilsa ham qayd yo‘qolmaydi",
+              "text": "Har bir turniketning ishlashi jonli kuzatiladi: qaysi biri ishlamay qolgani darhol bilinadi, aloqa tiklangach o‘tkazib yuborilgan qaydlar o‘zi yig‘iladi.",
+              "benefit": "Nosoz turniket darhol topiladi — davomat ma’lumoti yo‘qolmaydi."
+            },
+            {
+              "id": "kk-s10",
+              "url": "",
+              "points": [
+                "607 808 kirish-chiqish avtomatik qayd etildi",
+                "17 772 yuz surati HEMIS’dan olinib, FaceID uchun tayyor",
+                "33 turniket — Yuksalish, Lola, Chorsu binolarida",
+                "22 646 o‘tish bir kunda (10-noyabr)"
+              ],
+              "images": [],
+              "layout": "points",
+              "kicker": "Natija",
+              "title": "Davomat — aniq ma’lumotga aylandi",
+              "text": "Qo‘lda yuritiladigan jurnal o‘rnini avtomatik, ishonchli va doim ochiq tizim egalladi."
+            },
+            {
+              "id": "kk-s11",
+              "url": "",
+              "points": [
+                "Aniqla AI: kamera begona shaxsni aniqlab, Telegram’ga xabar beradi",
+                "LMS bilan bog‘liq: darsdagi davomat turniket bilan tekshiriladi",
+                "O‘zimizning yechim — boshqa OTMlarga ham joriy etish mumkin"
+              ],
+              "images": [],
+              "layout": "points",
+              "kicker": "Istiqbol",
+              "title": "Keyingi bosqich"
+            }
+          ]
+        },
+        {
+          "id": "kk-info",
+          "type": "info",
+          "rows": [
+            [
+              "Mijoz",
+              "Namangan davlat universiteti"
+            ],
+            [
+              "Yo‘nalish",
+              "Davomat"
+            ],
+            [
+              "Yil",
+              "2026"
+            ],
+            [
+              "Texnologiya",
+              "Go · Wails · React · TypeScript"
+            ],
+            [
+              "Imkoniyatlar",
+              "FaceID turniketlar · HEMIS sinxron · Tungi nazorat"
+            ],
+            [
+              "Ko‘lam",
+              "4 bino · 33 turniket"
+            ]
+          ],
+          "lead": "To‘rtta binodagi 33 ta turniket bitta tizimga ulangan. Talaba yoki xodim yuzini ko‘rsatib o‘tadi — kim, qachon, qaysi eshikdan kirgani surati bilan shu zahoti ko‘rinadi.",
+          "body": "50 699 talaba va 2 452 xodim ma’lumoti HEMIS’dan olinadi, 17 772 ta yuz surati turniketlarga bir tugma bilan yuklanadi. Bir kunda 22 646 ta o‘tish, arxivda 607 808 ta yozuv. 22:00–05:00 oralig‘idagi harakatlar alohida hisobotda."
+        },
+        {
+          "id": "kk-list",
+          "type": "list",
+          "title": "Nimalar qoldi",
+          "items": [
+            "Tahlil markazi",
+            "Jonli harakatlar",
+            "Fakultetlar reytingi",
+            "FaceID’ga yuklash",
+            "Tungi nazorat",
+            "Qurilmalar holati"
+          ],
+          "peopleTitle": "Jamoa",
+          "people": []
+        }
+      ]
+    },
+    {
+      "id": "f5afe6783122",
+      "hidden": false,
+      "slug": "uniscore",
+      "name": "UniScore KPI",
+      "year": 2026,
+      "category": "KPI",
+      "color": "#3554d1",
+      "tagline": "Har bir mehnat yagona mezon asosida, qog‘ozsiz va hammaga ochiq baholanadi.",
+      "services": "KPI dasturi · Komissiya · Reyting va hisobot",
+      "site": "kpi.namdu.uz",
+      "stack": "Django · PostgreSQL · HEMIS API",
+      "intro": "Professor-o‘qituvchilarning ilmiy, uslubiy va xalqaro faoliyati baholanadi. Har bir mezon THE va QS reyting talablariga bog‘langan — ball universitet reytingiga xizmat qiladi.",
+      "story": "Ballni inson emas, mezon belgilaydi: o‘qituvchi hujjat yuklaydi, mas’ul komissiya a’zosi faqat «tasdiqlash» yoki «rad etish»ni bosadi. 5 xil rol, hech kim o‘zini baholay olmaydi, tizim 688 ta avtomatik test bilan himoyalangan.",
+      "kept": [
+        "KPI dasturi",
+        "Jonli statistika",
+        "Xodimlar reytingi",
+        "Komissiya paneli",
+        "Excel hisobot",
+        "Telefon interfeysi"
+      ],
+      "stats": [
+        [
+          "5",
+          "rol"
+        ],
+        [
+          "688",
+          "avtomatik test"
+        ],
+        [
+          "4",
+          "qadam: mezondan reytinggacha"
+        ]
+      ],
+      "cover": "/uploads/uniscore-kpi-macbook-mockup-80520f4ff47f.png",
+      "gallery": [
+        "/img/cover/kpi-1.png",
+        "/img/cover/kpi-2.png",
+        "/img/cover/kpi-3.png",
+        "/img/cover/kpi-4.png"
+      ],
+      "blocks": [
+        {
+          "id": "kpi-deck",
+          "type": "slides",
+          "title": "Taqdimot",
+          "slides": [
+            {
+              "id": "kpi-s1",
+              "url": "kpi.namdu.uz",
+              "points": [
+                "Ballni inson emas, mezon belgilaydi",
+                "Xodimlar ro‘yxati HEMIS’dan o‘zi keladi",
+                "Har bir qaror izi saqlanadi: kim, qachon, nega"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/kpi-program-safe.png"
+                }
+              ],
+              "layout": "cover",
+              "kicker": "UniScore · NamDU KPI tizimi",
+              "title": "Har bir mehnat — adolatli baholanadi",
+              "text": "Professor-o‘qituvchilarning ilmiy, uslubiy va xalqaro faoliyati yagona mezon asosida, qog‘ozsiz va hammaga ochiq holda baholanadi."
+            },
+            {
+              "id": "uniscore-stats-s",
+              "layout": "stats",
+              "kicker": "Raqamlarda",
+              "images": [],
+              "points": [],
+              "title": "Adolatli baholash — raqamlarda",
+              "text": "2026/2027 o‘quv yili KPI dasturi tizimda to‘liq yuritilmoqda.",
+              "items": [
+                [
+                  "102",
+                  "xodim qamrovda"
+                ],
+                [
+                  "270",
+                  "hujjat topshirilgan",
+                  "141 tasdiqlangan"
+                ],
+                [
+                  "73",
+                  "ball — 8 bosqich",
+                  "THE va QS mezonlari"
+                ],
+                [
+                  "688",
+                  "avtomatik test",
+                  "har o‘zgarishda"
+                ]
+              ]
+            },
+            {
+              "id": "uniscore-compare-s",
+              "layout": "compare",
+              "kicker": "Muammo va yechim",
+              "left": "Ilgari",
+              "right": "Endi",
+              "images": [],
+              "points": [],
+              "title": "Nima o‘zgardi",
+              "rows": [
+                [
+                  "KPI qog‘oz jadvalda, qo‘lda hisoblanardi",
+                  "Ball mezondan avtomatik hisoblanadi"
+                ],
+                [
+                  "Hujjatlar papkada kabinetma-kabinet yurardi",
+                  "Hujjat bir marta yuklanadi, komissiyaga o‘zi yetadi"
+                ],
+                [
+                  "Bir xil ishga turlicha ball qo‘yilishi mumkin edi",
+                  "Bir xil ish — hamma uchun bir xil ball"
+                ],
+                [
+                  "Natija faqat yil oxirida ma’lum bo‘lardi",
+                  "Reyting har kuni ko‘rinib turadi"
+                ]
+              ]
+            },
+            {
+              "id": "kpi-s2",
+              "url": "kpi.namdu.uz",
+              "points": [
+                "8 bosqich, jami 73 ball",
+                "102 xodim qamrovda · 2026/2027 o‘quv yili",
+                "Holat: qoralama → chop etilgan → boshlangan → yakunlangan"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/kpi-program-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "KPI dasturi",
+              "title": "Mezon, ball, muddat — bitta sahifada",
+              "text": "Har bir mezon, uning bali va muddati, kimlar qatnashishi va kim baholashi bitta sahifada turadi. Mezonlar THE va QS xalqaro reyting talablariga bog‘langan — har bir ball universitet reytingiga xizmat qiladi.",
+              "benefit": "Har bir ball universitetning xalqaro reytingiga xizmat qiladi."
+            },
+            {
+              "id": "kpi-s3",
+              "url": "kpi.namdu.uz",
+              "points": [
+                "102 ishtirokchi, 270 hujjat topshirilgan",
+                "141 tasdiqlangan, 99 komissiya navbatida",
+                "Natijalar taqsimoti va eng yaxshi natijalar"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/kpi-stats-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Jonli statistika",
+              "title": "Kim qancha ball to‘plagani — shu zahoti",
+              "text": "Kim qancha ball to‘plagani, qaysi kafedra oldinda ekani shu zahoti ko‘rinadi. Hisobot so‘rab kutish shart emas.",
+              "benefit": "Rahbariyat yil oxirini kutmaydi — natija har kuni ko‘rinadi."
+            },
+            {
+              "id": "kpi-s4",
+              "url": "kpi.namdu.uz",
+              "points": [
+                "Xodim, 13 bo‘linma va 8 bosqich kesimida",
+                "CSV / Excel — bir tugmada"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/kpi-reports-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Reyting va hisobot",
+              "title": "Reyting o‘zi tuziladi",
+              "text": "Xodimlar reytingi ball, foiz va hujjatlar soni bilan avtomatik tuziladi va bir tugma bosib Excel faylga chiqariladi.",
+              "benefit": "Rag‘batlantirish faqat tasdiqlangan, aniq natija asosida."
+            },
+            {
+              "id": "kpi-s5",
+              "url": "",
+              "points": [
+                "KPI administratori — dastur tuziladi",
+                "Xodim — hujjat yuklanadi",
+                "Komissiya a’zosi — baholaydi",
+                "Rahbariyat — ball va reyting tayyor"
+              ],
+              "images": [],
+              "layout": "points",
+              "kicker": "UniScore · Qanday ishlaydi",
+              "title": "To‘rt qadam: mezondan — reytinggacha",
+              "text": "Har bir ishtirokchi faqat o‘z vazifasini bajaradi — ballni hisoblash, reyting tuzish va hisobotni tizim o‘zi qiladi."
+            },
+            {
+              "id": "kpi-s6",
+              "url": "kpi.namdu.uz",
+              "points": [
+                "Scopus / WoS Q1–Q2 maqola — 18 ball (THE: Research quality)",
+                "Xalqaro grant yoki xo‘jalik shartnomasi — 15 ball",
+                "Darslik yoki o‘quv qo‘llanma — 12 ball"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/kpi-steps-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Qadam 01 · KPI administratori",
+              "title": "Dastur tuziladi",
+              "text": "Mezonlar, ballar va muddat kiritiladi. Dastur kimlarga tegishli ekani — butun fakultet, kafedra yoki lavozim bo‘yicha — belgilanadi va komissiya tayinlanadi. Tayyor bo‘lmagan dastur chop etilmaydi.",
+              "benefit": "Mezonlar oldindan e’lon qilinadi — hamma bir xil qoidada."
+            },
+            {
+              "id": "kpi-s7",
+              "url": "kpi.namdu.uz",
+              "points": [
+                "Bitta ish — bitta paket, bir marta baholanadi",
+                "Komissiya qaroriga qadar tahrirlash mumkin",
+                "Telefondan ham yuklasa bo‘ladi"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/kpi-entry-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Qadam 02 · Xodim",
+              "title": "Hujjat yuklanadi",
+              "text": "O‘qituvchi HEMIS hisobi bilan kiradi, unga qaysi mezonlar tayinlangani va qancha vaqt qolganini ko‘radi, maqola, sertifikat yoki havolani yuklaydi.",
+              "benefit": "Hujjat bir marta yuklanadi va komissiyaga o‘zi yetadi."
+            },
+            {
+              "id": "kpi-s8",
+              "url": "kpi.namdu.uz",
+              "points": [
+                "Ball mezondan avtomatik chiqadi",
+                "Rad etilsa — sababi albatta yoziladi",
+                "O‘zini o‘zi baholash mumkin emas"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/kpi-person-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Qadam 03 · Komissiya a’zosi",
+              "title": "Faqat «tasdiqlash» yoki «rad etish»",
+              "text": "Har bir mezonni bitta mas’ul komissiya a’zosi ko‘radi. Ballni a’zo o‘zi o‘ylab topmaydi — u mezondan avtomatik chiqadi. Rad etilsa, sabab albatta yoziladi va xodim nimani tuzatishni biladi.",
+              "benefit": "Sub’ektivlik yo‘q: ballni inson emas, mezon belgilaydi."
+            },
+            {
+              "id": "kpi-s9",
+              "url": "kpi.namdu.uz",
+              "points": [
+                "Reyting va hisobotlar o‘zi yangilanadi",
+                "Kafedra va bo‘linma kesimida",
+                "Excel’ga bir tugmada"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/kpi-ranking-safe.png"
+                }
+              ],
+              "layout": "feature",
+              "kicker": "Qadam 04 · Rahbariyat",
+              "title": "Ball va reyting tayyor",
+              "text": "Ball mezondan avtomatik hisoblanadi, reyting va hisobotlar o‘zi yangilanadi. Natija istalgan payt ochiq.",
+              "benefit": "Qaysi kafedra oldinda ekani faktlar asosida ko‘rinadi."
+            },
+            {
+              "id": "kpi-s10",
+              "url": "kpi.namdu.uz",
+              "points": [
+                "Bosqichlar, paketlar va to‘plangan ball",
+                "Navbatda, tasdiqlangan va rad etilgan hujjatlar",
+                "Muddat tugashiga necha kun qolgani"
+              ],
+              "images": [
+                {
+                  "src": "/img/real/kpi-mobile-safe.png",
+                  "caption": "Mening KPIm"
+                }
+              ],
+              "layout": "phones",
+              "kicker": "UniScore · Xodim uchun",
+              "title": "Natija telefonda ham ko‘rinadi",
+              "text": "O‘qituvchi o‘z KPI’ini telefonidan kuzatadi: nima tayinlangan, u necha ball turadi va qachongacha topshiriladi.",
+              "benefit": "O‘qituvchi o‘z natijasini va muddatini doim biladi."
+            },
+            {
+              "id": "kpi-s11",
+              "url": "",
+              "points": [
+                "O‘zini o‘zi baholash mumkin emas",
+                "Baholangan hujjat o‘zgartirilmaydi",
+                "Muddat va eslatmalar avtomatik",
+                "5 rol — har kim faqat o‘z vakolatidagini ko‘radi; 688 avtomatik test"
+              ],
+              "images": [],
+              "layout": "points",
+              "kicker": "Kafolat",
+              "title": "Tizimga ishonsa bo‘ladi"
+            },
+            {
+              "id": "kpi-s12",
+              "url": "",
+              "points": [
+                "THE va QS reytinglarida ilmiy ko‘rsatkichlar o‘sishi",
+                "Rag‘batlantirish faqat aniq natija asosida",
+                "O‘zimizning yechim — boshqa OTMlarga ham joriy etiladi"
+              ],
+              "images": [],
+              "layout": "points",
+              "kicker": "Kutilayotgan natija",
+              "title": "Qog‘ozdan — aniq raqamga",
+              "text": "KPI endi yil oxirida yig‘iladigan jadval emas — har kuni ko‘rinib turadigan, hammaga tushunarli ko‘rsatkich."
+            }
+          ]
+        },
+        {
+          "id": "kpi-info",
+          "type": "info",
+          "rows": [
+            [
+              "Mijoz",
+              "Namangan davlat universiteti"
+            ],
+            [
+              "Yo‘nalish",
+              "KPI"
+            ],
+            [
+              "Yil",
+              "2026"
+            ],
+            [
+              "Texnologiya",
+              "Django · PostgreSQL · HEMIS API"
+            ],
+            [
+              "Imkoniyatlar",
+              "KPI dasturi · Komissiya · Reyting va hisobot"
+            ],
+            [
+              "Sayt",
+              "kpi.namdu.uz"
+            ]
+          ],
+          "lead": "Professor-o‘qituvchilarning ilmiy, uslubiy va xalqaro faoliyati baholanadi. Har bir mezon THE va QS reyting talablariga bog‘langan — ball universitet reytingiga xizmat qiladi.",
+          "body": "Ballni inson emas, mezon belgilaydi: o‘qituvchi hujjat yuklaydi, mas’ul komissiya a’zosi faqat «tasdiqlash» yoki «rad etish»ni bosadi. 5 xil rol, hech kim o‘zini baholay olmaydi, tizim 688 ta avtomatik test bilan himoyalangan."
+        },
+        {
+          "id": "kpi-list",
+          "type": "list",
+          "title": "Nimalar qoldi",
+          "items": [
+            "KPI dasturi",
+            "Jonli statistika",
+            "Xodimlar reytingi",
+            "Komissiya paneli",
+            "Excel hisobot",
+            "Telefon interfeysi"
+          ],
+          "peopleTitle": "Jamoa",
+          "people": []
+        }
+      ]
+    }
+  ],
+  "team": [
+    {
+      "id": "a2d010e0481d",
+      "name": "Xayrullo Meliboev To'xtanazarovich",
+      "role": "Project Manager",
+      "photo": "/uploads/photo-2026-11-14-08-19-10-5179f60ceda3.jpg"
+    },
+    {
+      "id": "9bd2eababbc4",
+      "name": "Abdulhafiz Davlatov",
+      "role": "Lead Software Engineer",
+      "photo": "/uploads/linkedin-tech-bokeh-c110857d8b5e.jpg"
+    },
+    {
+      "id": "927a4726be8d",
+      "name": "Asliddinbek Dagaraliyev",
+      "role": "Full-stack developer, Designer",
+      "photo": "/uploads/img-5183-570c47d0cc86.jpg"
+    },
+    {
+      "id": "898f50e5aa5b",
+      "name": "Ism Familiya",
+      "role": "Loyiha menejeri",
+      "photo": "/img/team4.jpg"
+    },
+    {
+      "id": "bc8a0f8ef23f",
+      "name": "Ism Familiya",
+      "role": "Kreativ dasturchi",
+      "photo": "/img/team5.jpg"
+    },
+    {
+      "id": "17af9572e643",
+      "name": "Ism Familiya",
+      "role": "Katta dizayner",
+      "photo": "/img/team6.jpg"
+    }
+  ],
+  "posts": [
+    {
+      "id": "0ea6a0c22420",
+      "category": "Narx",
+      "read": "4 daqiqa",
+      "title": "Tizim va sayt aslida qancha turadi",
+      "excerpt": "Loyihalarimiz 3 oydan 6 oygacha davom etadi. Narxga nima kiradi, uni nima oshiradi va qanday nazorat qilinadi.",
+      "image": "/img/post1.jpg",
+      "url": ""
+    },
+    {
+      "id": "fe1bc91983f8",
+      "category": "Muddat",
+      "read": "4 daqiqa",
+      "title": "Tizimni qayta qurish qancha vaqt oladi",
+      "excerpt": "Vaqt qayerga ketadi, nima sekinlashtiradi va ishga tushirish sanasini qanday kelishamiz.",
+      "image": "/img/post2.jpg",
+      "url": ""
+    },
+    {
+      "id": "b7db117ab542",
+      "category": "Egalik",
+      "read": "3 daqiqa",
+      "title": "Ishga tushganda universitetda nima qolishi kerak",
+      "excerpt": "Akkauntlar, manba kodi va uni o‘zgartirish bilimi — imzo qo‘yishdan oldin tekshiriladigan ro‘yxat.",
+      "image": "/img/post3.jpg",
+      "url": ""
+    },
+    {
+      "id": "be945f5e9f21",
+      "category": "Hamkorlik",
+      "read": "3 daqiqa",
+      "title": "Jamoani tanlashdan oldin beriladigan to‘qqiz savol",
+      "excerpt": "Portfolio nima qila olishini ko‘rsatadi. Bu savollar esa qanday ishlashini ko‘rsatadi.",
+      "image": "/img/post4.jpg",
+      "url": ""
+    },
+    {
+      "id": "740e3512a877",
+      "category": "Qarorlar",
+      "read": "4 daqiqa",
+      "title": "Django, Go yoki tayyor platforma: qanday tanlaymiz",
+      "excerpt": "Uchta yaxshi yo‘l. Kim tahrirlaydi va tizim nima qilishi kerakligiga qarab tanlaymiz.",
+      "image": "/img/post5.jpg",
+      "url": ""
+    },
+    {
+      "id": "deee5312b529",
+      "category": "Qarorlar",
+      "read": "3 daqiqa",
+      "title": "HEMIS integratsiyasi qachon arziydi",
+      "excerpt": "Ma’lumot bir marta kiritiladi — lekin har doim ham emas. Qanday hal qilamiz.",
+      "image": "/img/post6.jpg",
+      "url": ""
+    }
+  ],
+  "updatedAt": "2026-11-14T03:23:14.134Z"
+}

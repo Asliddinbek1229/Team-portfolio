@@ -1,0 +1,24 @@
+# bog'liqliklar va build
+node_modules/
+dist/
+
+# maxfiy sozlamalar (parol, kalit) — serverda alohida yaratiladi
+server/.env
+
+# ishchi baza va zaxiralar — serverda admin orqali o'zgaradi (gitda: server/data/db.seed.json)
+server/data/db.json
+server/data/db.json.tmp
+server/data/backups/
+
+# yuklangan fayllar — faqat saytda ishlatilayotganlari gitda (git add -f bilan qo'shilgan)
+server/uploads/*
+
+# xiralashtirilmagan asl skrinshotlar (shaxsiy ma'lumot!) va kelgan rasmlar
+private/
+incoming/
+
+# muhit
+.claude/
+.DS_Store
+Thumbs.db
+*.log
