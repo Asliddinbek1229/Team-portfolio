@@ -93,6 +93,9 @@ const attempts = new Map()
 // ---- app ----
 const app = express()
 app.disable('x-powered-by')
+// Nginx (shu serverning o'zida) orqali kelganda mijozning haqiqiy IP'si X-Forwarded-For dan olinadi
+// (login urinishlarini cheklash har bir foydalanuvchiga alohida ishlashi uchun).
+app.set('trust proxy', 'loopback')
 app.use(express.json({ limit: '2mb' }))
 app.use('/uploads', express.static(UPLOADS, { maxAge: '7d' }))
 
