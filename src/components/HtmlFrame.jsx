@@ -1,5 +1,6 @@
 import { useEffect, useId, useMemo, useRef, useState } from 'react'
 import { buildDoc } from '../data/aiKit'
+import { useTheme } from '../theme'
 
 // AI/maxsus kodni izolyatsiyalangan iframe'da ko'rsatadi: kodning CSS va JS'i saytga, cookie/
 // localStorage ga ta'sir qila olmaydi (allow-same-origin yo'q). Balandlik kontentga moslashadi.
@@ -8,7 +9,13 @@ export default function HtmlFrame({ code, color, width, minHeight = 80, title = 
   const id = useMemo(() => 'f' + rawId.replace(/[^a-z0-9]/gi, ''), [rawId])
   const ref = useRef(null)
   const [h, setH] = useState(null)
-  const doc = useMemo(() => buildDoc(code || '', { id, color, origin: window.location.origin, preview }), [code, color, id, preview])
+  // admin ko'rinishi (preview) doim qorong'i; saytda — tanlangan mavzu
+  const siteTheme = useTheme()
+  const theme = preview ? 'dark' : siteTheme
+  const doc = useMemo(
+    () => buildDoc(code || '', { id, color, origin: window.location.origin, preview, theme }),
+    [code, color, id, preview, theme],
+  )
 
   useEffect(() => {
     const onMsg = (e) => {

@@ -134,12 +134,11 @@ export default function Cube({ size = 112, appearDelay = 1.35 }) {
           >
             {Array.from({ length: LAYERS }).map((_, i) => {
               const n = i / 13
-              const g = Math.round(138 + n * 104)
               return (
                 <div
                   key={i}
                   className="cube-layer-svg"
-                  style={{ transform: `translateZ(${((n - 0.5) * depth).toFixed(2)}px)`, color: `rgb(${g},${g},${Math.min(255, g + 6)})` }}
+                  style={{ transform: `translateZ(${((n - 0.5) * depth).toFixed(2)}px)`, '--n': n.toFixed(3) }}
                   dangerouslySetInnerHTML={{ __html: MARK }}
                 />
               )
@@ -150,7 +149,7 @@ export default function Cube({ size = 112, appearDelay = 1.35 }) {
               key={i}
               data-face=""
               className="cube-face"
-              style={{ transform: t, boxShadow: `inset 0 0 ${Math.round((22 * size) / 112)}px rgba(255,255,255,.06)` }}
+              style={{ transform: t, boxShadow: `inset 0 0 ${Math.round((22 * size) / 112)}px rgba(var(--tint),.06)` }}
             />
           ))}
         </div>

@@ -1,6 +1,6 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import PixelImage from '../components/PixelImage'
-import Slider from '../components/Slider'
+import TeamCarousel from '../components/TeamCarousel'
 import { Bracket, Footer } from '../components/Layout'
 import { useContent } from '../data/content'
 
@@ -35,7 +35,6 @@ export default function Studio() {
   useReveal()
   const { projects, team, settings: s } = useContent()
   const [svc, setSvc] = useState(0)
-  const teamRef = useRef(null)
   const covers = useMemo(() => projects.map((p) => p.cover).filter(Boolean), [projects])
 
   return (
@@ -77,20 +76,7 @@ export default function Studio() {
 
         <section className="team">
           <h2 className="big-h reveal">Birinchi uchrashuvdagi odamlar.</h2>
-          <div className="team-track" ref={teamRef}>
-            {team.map((m) => (
-              <div className="member" key={m.id}>
-                {m.photo && <img src={m.photo} alt="" draggable={false} />}
-                <div className="member-txt">
-                  <h4>{m.name}</h4>
-                  <span className="mono">{m.role}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-          <div className="team-slider">
-            <Slider targetRef={teamRef} />
-          </div>
+          <TeamCarousel team={team} />
         </section>
 
         <section className="services">

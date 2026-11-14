@@ -44,7 +44,7 @@ h1,h2,h3,h4,p,ul,ol,figure,blockquote,dl,dd{margin:0}
 .g-line{border:0;border-top:1px solid var(--line);margin:0}
 .g-list{list-style:none;padding:0;display:grid;gap:10px}
 .g-list li{position:relative;padding-left:16px}
-.g-list li::before{content:'';position:absolute;left:0;top:.55em;width:6px;height:6px;background:#bbb}
+.g-list li::before{content:'';position:absolute;left:0;top:.55em;width:6px;height:6px;background:var(--dim)}
 .g-tag{display:inline-block;font-family:var(--mono);text-transform:uppercase;letter-spacing:.05em;font-size:10px;padding:5px 8px;border:1px solid var(--line);border-radius:99px;color:var(--mute)}
 .g-btn{display:inline-flex;gap:6px;align-items:center;height:42px;padding:0 22px;font-family:var(--mono);text-transform:uppercase;letter-spacing:.05em;font-size:13px;font-weight:500;
 background:var(--fg);color:var(--bg);text-decoration:none;border:0;cursor:pointer}
@@ -62,13 +62,18 @@ background:var(--fg);color:var(--bg);text-decoration:none;border:0;cursor:pointe
 const FONTS = 'https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;900&family=Geist+Mono:wght@400;500;700&display=swap'
 
 // iframe uchun to'liq hujjat. Balandlik postMessage orqali ota sahifaga yuboriladi.
-export function buildDoc(code, { id, color = '#9fd7ff', origin = '', preview = false } = {}) {
+// Yorug' mavzu: AI kodi o'zgaruvchilardan (var(--fg) va h.k.) foydalangani uchun avtomatik moslashadi
+const KIT_LIGHT = `:root{--bg:#f5f4f0;--fg:#121116;--mute:#6c6b73;--dim:#94939a;--line:rgba(18,17,22,.13);--card:#fff;--card2:#e9e8e3;
+--accent:#2456d3;color-scheme:light}
+.g-grad{background:linear-gradient(90deg,#121116 0%,#3b33c9 30%,#6d35d8 55%,#0e7fa8 92%);-webkit-background-clip:text;background-clip:text}`
+
+export function buildDoc(code, { id, color = '#9fd7ff', origin = '', preview = false, theme = 'dark' } = {}) {
   const safeColor = /^#[0-9a-f]{3,8}$/i.test(color) ? color : '#9fd7ff'
   return `<!doctype html><html lang="uz"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <base href="${origin}/" target="_top">
 <link rel="stylesheet" href="${FONTS}">
-<style>${KIT_CSS}:root{--p:${safeColor}}${preview ? BROKEN_PREVIEW : BROKEN_SITE}</style>
+<style>${KIT_CSS}${theme === 'light' ? KIT_LIGHT : ''}:root{--p:${safeColor}}${preview ? BROKEN_PREVIEW : BROKEN_SITE}</style>
 </head><body><div id="g-root">${code}</div>
 <script>(function(){var r=document.getElementById('g-root'),last=0;
 function send(){var h=Math.ceil(r.getBoundingClientRect().height);if(Math.abs(h-last)<1)return;last=h;parent.postMessage({__gobo:'h',id:${JSON.stringify(id || '')},h:h},'*')}

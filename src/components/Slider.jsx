@@ -97,7 +97,7 @@ export default function Slider({ targetRef, className = '' }) {
       onKeyDown={key}
       style={{ visibility: hidden ? 'hidden' : 'visible' }}
     >
-      <b className="slider-line" style={{ background: mode === 'rest' ? 'rgba(255,255,255,.14)' : 'rgba(255,255,255,.42)' }} />
+      <b className="slider-line" style={{ background: mode === 'rest' ? 'rgba(var(--tint),.14)' : 'rgba(var(--tint),.42)' }} />
       <i ref={tickRef} className="slider-tick">
         <b
           style={{

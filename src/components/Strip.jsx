@@ -2,13 +2,14 @@ import { useEffect, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { VERT, FRAG } from './stripShader'
 import { bus, smooth, stripGeo, MONO, SCRAMBLE, reducedMotion } from './bus'
+import { isLight, onThemeChange } from '../theme'
 
 // Template'dagi "Work strip" ning to'liq porti: WebGL fragment shader fon + kartalar,
 // chetlarda egilish (bend) va RGB ajralish, intro animatsiya, inersiyali scroll/drag,
 // hover'da piksel kursor "OPEN" va pastki o'ngda shifrlangan sarlavha.
 
 const UNIFORMS =
-  'uRes.uDpr.uAtlas.uGrid.uN.uOffset.uS.uGap.uLabH.uVert.uA0.uC0.uLo.uHi.uStride.uFade.uRad.uShrink.uTime.uIntro.uWob.uE0.uMag.uLift.uVMag.uBendAmt.uCube.uLabel.uTint.uTintAmt.uHover.uHoverT.uSeed'.split(
+  'uRes.uDpr.uAtlas.uGrid.uN.uOffset.uS.uGap.uLabH.uVert.uA0.uC0.uLo.uHi.uStride.uFade.uRad.uShrink.uTime.uIntro.uWob.uE0.uMag.uLift.uVMag.uBendAmt.uCube.uLabel.uTint.uTintAmt.uHover.uHoverT.uSeed.uLight'.split(
     '.',
   )
 const BEND = { desk: { e0: 0.6, mag: 0.45, lift: 0.42, vmag: 0.36 }, col: { e0: 0.5, mag: 0.45, lift: 0.22, vmag: 0.3 } }
@@ -353,6 +354,13 @@ export default function Strip({ items, drift = 30, openLabel = 'Ochish' }) {
     let order = []
     let cursorP = 0
     let drawn = false
+    // mavzu: 0 = qorong'i, 1 = yorug' — almashganda silliq o'tadi
+    let lightTo = isLight() ? 1 : 0
+    let lightT = lightTo
+    offs.push(onThemeChange((t) => {
+      lightTo = t === 'light' ? 1 : 0
+      drawn = false
+    }))
     const shuffle = () => {
       order = Array.from({ length: 121 }, (_, i) => i)
       for (let i = order.length - 1; i > 0; i--) {
@@ -369,7 +377,7 @@ export default function Strip({ items, drift = 30, openLabel = 'Ochish' }) {
       if (curCanvas.width !== 88 * r) curCanvas.width = curCanvas.height = 88 * r
       cctx.setTransform(r, 0, 0, r, 0, 0)
       cctx.clearRect(0, 0, 88, 88)
-      cctx.fillStyle = '#F3F3F1'
+      cctx.fillStyle = lightTo ? '#121116' : '#F3F3F1'
       const n = Math.round((Math.round(cursorP * 6) / 6) * order.length)
       for (let i = 0; i < n; i++) {
         const c = order[i]
@@ -453,11 +461,14 @@ export default function Strip({ items, drift = 30, openLabel = 'Ochish' }) {
     // ---- kadr ----
     let last = performance.now()
     function frame(now) {
-      const dt = Math.min(0.05, Math.max(0.001, (now - last) / 1000))
+      const rawDt = Math.max(0.001, (now - last) / 1000)
+      const dt = Math.min(0.05, rawDt)
       last = now
       const intro = started ? (now - introStart) / 1000 : 0
       const time = now / 1000
       const f60 = dt * 60
+      // haqiqiy vaqt bo'yicha (~0.5s) — kadrlar sekinlashsa ham o'tish kechikmaydi
+      lightT = still ? lightTo : lightT + (lightTo - lightT) * (1 - 0.0025 ** Math.min(1, rawDt))
       const auto = still || !started ? 0 : drift * smooth(1.6, 2.8, intro)
       const st = stride()
       const snapDist = () => Math.abs(shown - Math.round(shown / st) * st) / st
@@ -544,8 +555,10 @@ export default function Strip({ items, drift = 30, openLabel = 'Ochish' }) {
         gl.uniform1f(U.uLift, bend.lift * S)
         gl.uniform1f(U.uVMag, bend.vmag)
         gl.uniform1f(U.uBendAmt, bendAmt)
-        gl.uniform3f(U.uCube, 0.95, 0.95, 0.94)
-        gl.uniform3f(U.uLabel, 0.86, 0.86, 0.85)
+        const mixL = (a, b) => a + (b - a) * lightT
+        gl.uniform3f(U.uCube, mixL(0.95, 0.09), mixL(0.95, 0.09), mixL(0.94, 0.11))
+        gl.uniform3f(U.uLabel, mixL(0.86, 0.18), mixL(0.86, 0.18), mixL(0.85, 0.2))
+        gl.uniform1f(U.uLight, lightT)
         gl.uniform3fv(U.uTint, tint)
         gl.uniform1f(U.uTintAmt, tintAmt)
         gl.uniform1f(U.uHover, h === null ? -1e4 : h)

@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { useContent } from '../data/content'
 import { decode, reducedMotion } from './bus'
+import { setTheme, useTheme } from '../theme'
 
 // [ MATN ▮ ] — hover'da qavslar 7px ochiladi, matn "decode" bo'ladi, kursor to'xtaydi
 export function Bracket({ children, to, href, className = '', solid = false, open = false, caret = true, onClick, type }) {
@@ -108,11 +109,38 @@ export function Header() {
         <ScrambleLink to="/insights">Maqolalar</ScrambleLink>
         <ScrambleLink to="/studio">IT Park</ScrambleLink>
         <ScrambleLink to="/contact">Aloqa</ScrambleLink>
+        <ThemeToggle />
         <Bracket to="/contact" className="hdr-cta">
           Loyiha boshlash
         </Bracket>
       </nav>
     </header>
+  )
+}
+
+// Quyosh / oy: bosilganda mavzu almashadi; tanlov eslab qolinadi
+export function ThemeToggle() {
+  const t = useTheme()
+  const light = t === 'light'
+  const label = light ? 'Qorong‘i mavzuga o‘tish' : 'Yorug‘ mavzuga o‘tish'
+  return (
+    <button
+      type="button"
+      className={'theme-tg' + (light ? ' is-light' : '')}
+      onClick={() => setTheme(light ? 'dark' : 'light')}
+      aria-label={label}
+      title={label}
+    >
+      <svg viewBox="0 0 24 24" aria-hidden>
+        {/* qorong'i mavzuda — quyosh (bosilsa yorug'ga o'tadi) */}
+        <g className="tg-sun">
+          <circle cx="12" cy="12" r="4" />
+          <path d="M12 2.75v1.9M12 19.35v1.9M2.75 12h1.9M19.35 12h1.9M5.46 5.46l1.34 1.34M17.2 17.2l1.34 1.34M5.46 18.54l1.34-1.34M17.2 6.8l1.34-1.34" />
+        </g>
+        {/* yorug' mavzuda — oy */}
+        <path className="tg-moon" d="M20.2 14.6A8.3 8.3 0 0 1 9.4 3.8a8.3 8.3 0 1 0 10.8 10.8Z" />
+      </svg>
+    </button>
   )
 }
 

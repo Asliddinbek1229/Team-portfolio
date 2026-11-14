@@ -2,88 +2,72 @@
 
 Namangan davlat universiteti IT Park tomonidan yaratilgan tizimlar (LMS, Keldi-Ketti, UniScore, UniVision,
 Namdu MQB, Raqamli kutubxona, UniDoc) taqdimoti. Har bir loyiha sahifasi — animatsiyali slayder.
+Yorug' va qorong'i mavzu (headerdagi quyosh/oy tugmasi).
 
 - **Sayt:** React 18 + Vite
 - **Server:** Node.js + Express — API, admin panel (`/admin`) va tayyor saytni beradi
 - **Baza:** `server/data/db.json` (JSON fayl), yuklangan rasmlar — `server/uploads/`
 
-## Mahalliy ishga tushirish
+Loyiha hozircha **o'z kompyuterda** ishga tushiriladi va lokal tarmoq orqali ko'rsatiladi.
+
+## Birinchi marta (bir martalik)
+
+Kerak: [Node.js 20+](https://nodejs.org) (LTS).
 
 ```bash
 npm install
-cp server/.env.example server/.env   # parolni o'zgartiring
-npm run dev                          # http://localhost:5180 , admin: /admin
+copy server\.env.example server\.env
 ```
 
-## Universitet serverida ishga tushirish (domensiz, IP orqali)
+`server/.env` faylini oching va `ADMIN_PASSWORD` (admin panel paroli) hamda `ADMIN_SECRET` ni yozing.
+`ADMIN_SECRET` uchun tasodifiy satr: `node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"`
 
-Talab: Ubuntu/Debian server, **Node.js 20+**, git.
+## 1-usul: taqdimot / namoyish — `start-demo.cmd`
+
+`start-demo.cmd` fayliga **ikki marta bosing**. U saytni yig'adi (build) va 8080-portda ishga tushiradi,
+oynada ochiladigan manzillarni ko'rsatadi:
+
+- shu kompyuterda: `http://localhost:8080`
+- tarmoqdagi boshqa kompyuterlardan: `http://<kompyuter-IP>:8080`
+- admin panel: manzil oxiriga `/admin`
+
+Oyna ochiq turgan paytda sayt ishlaydi; oynani yopsangiz yoki `Ctrl+C` bossangiz — to'xtaydi.
+
+**Boshqa kompyuterlardan ochilishi uchun** Windows Firewall'da 8080-portga bir marta ruxsat bering
+(PowerShell — administrator sifatida):
 
 ```bash
-# 1. Node.js 20 (agar yo'q bo'lsa)
-curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-sudo apt-get install -y nodejs git
-sudo npm install -g pm2
-
-# 2. Loyihani olish
-git clone <REPO_URL> namdu-portfolio
-cd namdu-portfolio
-npm ci
-npm run build
-
-# 3. Maxfiy sozlamalar
-cp server/.env.example server/.env
-nano server/.env        # ADMIN_PASSWORD, ADMIN_SECRET, API_PORT ni o'zgartiring
-
-# 4. Doimiy ishga tushirish
-pm2 start ecosystem.config.cjs
-pm2 save
-pm2 startup             # chiqqan buyruqni nusxalab bajaring — server qayta yuklansa ham sayt o'zi yoqiladi
-
-# 5. Portni ochish (ufw ishlatilsa)
-sudo ufw allow 8080/tcp
+New-NetFirewallRule -DisplayName "NamDU portfolio 8080" -Direction Inbound -Protocol TCP -LocalPort 8080 -Action Allow -Profile Private,Domain
 ```
 
-Sayt: `http://SERVER_IP:8080` · Admin: `http://SERVER_IP:8080/admin`
+Taqdimot kuni: kompyuter uxlab qolmasin (Параметры → Система → Питание → «Никогда»),
+kompyuter IP'si o'zgarishi mumkin — to'g'ri manzil har safar `start-demo.cmd` oynasida ko'rinadi.
 
-Birinchi ishga tushishda `server/data/db.json` gitdagi `db.seed.json` dan avtomatik yaratiladi.
-Shundan keyin barcha o'zgarishlar admin panel orqali kiritiladi va `git pull` ularni o'chirmaydi.
-
-### Yangilash
+## 2-usul: dasturlash (kodni o'zgartirish)
 
 ```bash
-cd namdu-portfolio
-git pull
-npm ci
-npm run build
-pm2 restart namdu-portfolio
+npm run dev
 ```
 
-### Foydali buyruqlar
+`http://localhost:5180` — kod o'zgarishi brauzerda darhol ko'rinadi (Vite), admin: `/admin`.
+Bu rejim faqat shu kompyuter uchun. `npm run dev` va `start-demo.cmd` ni **bir vaqtda ishlatmang** —
+ikkalasi bitta bazaga (`db.json`) yozadi.
 
-```bash
-pm2 status                      # holat
-pm2 logs namdu-portfolio        # loglar
-pm2 restart namdu-portfolio     # qayta ishga tushirish
-```
+## Ma'lumotlar va zaxira
 
-### Zaxira nusxa
-
-Serverdagi ma'lumot faqat shu ikki joyda — ularni vaqti-vaqti bilan nusxalab turing:
-
-```bash
-tar czf ~/namdu-backup-$(date +%F).tgz server/data/db.json server/uploads
-```
-
-Admin panel ham har o'zgarishda `server/data/backups/` ga avtomatik nusxa oladi (oxirgi 30 tasi).
-
-### Domen ulanganda
-
-Domen (masalan `itpark.namdu.uz`) berilgach, oldiga nginx qo'yiladi va HTTPS yoqiladi.
-Shunda `API_PORT` ni yopiq qoldirib, faqat 80/443 ochiladi.
+- Loyihalar, jamoa, sozlamalar — `server/data/db.json`; admin panel orqali tahrirlanadi.
+- Admin panel har o'zgarishda `server/data/backups/` ga avtomatik nusxa oladi (oxirgi 30 tasi).
+- Gitda boshlang'ich nusxa `server/data/db.seed.json` turadi: `db.json` bo'lmasa, undan yaratiladi.
+  `db.json` va yuklangan rasmlar (`server/uploads/`) gitga tushmaydi — ularni vaqti-vaqti bilan
+  alohida nusxalab qo'ying.
 
 ## Muhim: shaxsiy ma'lumotlar
 
 Skrinshotlardagi talaba/xodim ismlari, yuzlari va ID'lari xiralashtirilgan (`public/img/real/*-safe.png`).
 Asl rasmlar `private/` papkada turadi va **gitga tushmaydi**. Yangi skrinshot qo'shishdan oldin
 shaxsiy ma'lumotlarni xiralashtiring: `node tools/blur.mjs <nom-prefiksi>`.
+
+## Keyinchalik serverga chiqarish
+
+Server tayyorlangan: `npm run build && npm start` (yoki PM2: `ecosystem.config.cjs`),
+port va manzil `server/.env` dagi `API_PORT` / `HOST` bilan beriladi.

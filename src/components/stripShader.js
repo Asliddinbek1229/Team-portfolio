@@ -13,7 +13,7 @@ uniform float uVert; uniform float uA0; uniform float uC0; uniform float uLo; un
 uniform float uShrink; uniform float uTime; uniform float uIntro; uniform float uWob;
 uniform float uE0; uniform float uMag; uniform float uLift; uniform float uVMag; uniform float uBendAmt;
 uniform vec3 uCube; uniform vec3 uLabel; uniform vec3 uTint; uniform float uTintAmt;
-uniform float uHover; uniform float uHoverT; uniform float uSeed;
+uniform float uHover; uniform float uHoverT; uniform float uSeed; uniform float uLight;
 
 float hash(vec2 p){ return fract(sin(dot(p, vec2(12.9898, 78.233))) * 43758.5453); }
 float sdBox(vec2 p, vec2 b, float r){ vec2 q = abs(p) - b + r; return min(max(q.x, q.y), 0.0) + length(max(q, 0.0)) - r; }
@@ -34,7 +34,14 @@ vec3 bg(vec2 p){
   col += mix(plum, ember, 0.5 + 0.5 * sin(t * 0.09 + 0.6)) * oval(w, vec2(0.12 + 0.07 * sin(t * 0.15), 1.1), vec2(0.62, 0.46), 1.8) * 0.3;
   col += mix(teal, ultra, 0.5 + 0.5 * sin(t * 0.12 + 2.4)) * oval(w, vec2(0.9 + 0.05 * cos(t * 0.11), 1.06), vec2(0.56, 0.44), 1.8) * 0.26;
   col += mix(uTint, top, 0.3) * oval(w, vec2(0.5, 0.5), vec2(0.42, 0.3), 2.2) * 0.07 * uTintAmt;
-  return col;
+  if (uLight < 0.001) return col;
+  // yorug' mavzu: qog'ozsimon och fon, xuddi shu harakatlanuvchi ranglar — pastel tusda
+  vec3 lc = mix(vec3(0.972, 0.968, 0.955), vec3(0.94, 0.937, 0.925), uv.y);
+  lc = mix(lc, mix(top, vec3(1.0), 0.35), oval(w, vec2(0.5 + 0.1 * sin(t * 0.13), -0.06), vec2(1.0, 0.46), 1.6) * 0.2);
+  lc = mix(lc, mix(mix(plum, ember, 0.5 + 0.5 * sin(t * 0.09 + 0.6)), vec3(1.0), 0.4), oval(w, vec2(0.12 + 0.07 * sin(t * 0.15), 1.1), vec2(0.62, 0.46), 1.8) * 0.16);
+  lc = mix(lc, mix(mix(teal, ultra, 0.5 + 0.5 * sin(t * 0.12 + 2.4)), vec3(1.0), 0.4), oval(w, vec2(0.9 + 0.05 * cos(t * 0.11), 1.06), vec2(0.56, 0.44), 1.8) * 0.15);
+  lc = mix(lc, mix(uTint, vec3(1.0), 0.4), oval(w, vec2(0.5, 0.5), vec2(0.42, 0.3), 2.2) * 0.06 * uTintAmt);
+  return mix(col, lc, uLight);
 }
 
 vec4 strip(vec2 p){
@@ -71,7 +78,7 @@ vec4 strip(vec2 p){
     cover = mix(cover, step(hash(cell + 3.1 + slot), 0.5), step(0.4, rp));
     cover = mix(cover, step(hash(cell + 9.7 - slot), 0.25), step(0.6, rp));
     cover = mix(cover, 0.0, step(0.8, rp));
-    img = mix(img, vec3(0.11, 0.105, 0.13), cover);
+    img = mix(img, mix(vec3(0.11, 0.105, 0.13), vec3(0.86, 0.855, 0.84), uLight), cover);
     if (hT > 0.001) {
       vec2 cc = min(cell, 9.0 - cell);
       float dc = max(cc.x, cc.y);
@@ -136,6 +143,6 @@ void main(){
     col = mix(col, col * (1.0 - 0.3 * t * t) + vec3(0.08) * hl, al);
   }
   col = mix(base, col, smoothstep(uFade.x, uFade.y, p.y) * (1.0 - smoothstep(uFade.z, uFade.w, p.y)));
-  col += (hash(p * uDpr + fract(uTime) * 61.0) - 0.5) * 0.022;
+  col += (hash(p * uDpr + fract(uTime) * 61.0) - 0.5) * mix(0.022, 0.012, uLight);
   gl_FragColor = vec4(col, 1.0);
 }`

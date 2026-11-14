@@ -9,7 +9,10 @@ import Project from './pages/Project'
 import Studio from './pages/Studio'
 import Insights from './pages/Insights'
 import Contact from './pages/Contact'
+import { initTheme } from './theme'
 import './styles/global.css'
+
+initTheme()
 
 const AdminApp = lazy(() => import('./admin/AdminApp'))
 
